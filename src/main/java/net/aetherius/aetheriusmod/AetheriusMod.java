@@ -1,5 +1,9 @@
 package net.aetherius.aetheriusmod;
 
+import net.aetherius.aetheriusmod.block.ModBlocks;
+import net.aetherius.aetheriusmod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
+import net.neoforged.neoforge.common.CreativeModeTabRegistry;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -29,6 +33,10 @@ public class AetheriusMod {
 
         NeoForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::addCreative);
 
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -38,6 +46,9 @@ public class AetheriusMod {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.ESPADA_ADM);
+        }
     }
 
     @SubscribeEvent
