@@ -10,9 +10,15 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(AetheriusMod.MOD_ID);
 
+
+
+
+
     public static final DeferredItem<SwordItem> ESPADA_ADM = ITEMS.register("espada_adm",
-           () -> new SwordItem(ModToolTiers.ADM, new Item.Properties()
-                   .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 96, 6f))));
+           () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().attributes(SwordItem.createAttributes(ModToolTiers.ADM, 96, 6f))));
+
+
+
 
 
     public static void register(IEventBus eventBus) {
