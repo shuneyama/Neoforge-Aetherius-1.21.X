@@ -1,3 +1,6 @@
 {
-  "parent": "aetheriusmod:block/bloco_ar"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "aetheriusmod:item/bloco_ar"
+  }
 }
