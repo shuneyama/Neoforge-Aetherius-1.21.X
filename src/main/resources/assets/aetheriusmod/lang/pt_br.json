@@ -5,6 +5,19 @@
   "item.aetheriusmod.aeda_prata": "Aeda de Prata",
   "item.aetheriusmod.aeda_ouro": "Aeda de Ouro",
   "item.aetheriusmod.aeda_ametista": "Aeda de Ametista",
+  "item.aetheriusmod.aeda_rubi": "Aeda de Rubi",
+  "item.aetheriusmod.aeda_cyannaz": "Aeda de CYannaz",
 
-  "block.aetheriusmod.bloco_ar": "Bloco de Ar"
+  "block.aetheriusmod.bloco_ar": "Bloco de Ar",
+
+
+  "item.aetheriusmod.cyan_black_key": "Chave Ciano-Escuro",
+  "item.aetheriusmod.cyan_golden_key": "Chave Ciano-Dourado",
+  "item.aetheriusmod.red_black_key": "Chave Vermelho-Escuro",
+  "item.aetheriusmod.red_golden_key": "Chave Vermelho-Dourado",
+  "item.aetheriusmod.green_black_key": "Chave Verde-Escuro",
+  "item.aetheriusmod.green_golden_key": "Chave Verde-Dourado",
+  "item.aetheriusmod.purple_black_key": "Chave Roxo-Escuro",
+  "item.aetheriusmod.purple_golden_key": "Chave Roxo-Dourado"
+
 }
