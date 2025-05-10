@@ -1,5 +1,10 @@
 {
   "item.aetheriusmod.espada_adm": "Adm's Sword",
 
+  "item.aetheriusmod.aeda_cobre": "Copper Aeda",
+  "item.aetheriusmod.aeda_prata": "Silver Aeda",
+  "item.aetheriusmod.aeda_ouro": "Golden Aeda",
+  "item.aetheriusmod.aeda_ametista": "Amethyst Aeda",
+
   "block.aetheriusmod.bloco_ar": "Air Block"
 }

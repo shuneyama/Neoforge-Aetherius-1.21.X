@@ -15,7 +15,16 @@ public class ModItems {
 
 
     public static final DeferredItem<SwordItem> ESPADA_ADM = ITEMS.register("espada_adm",
-           () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().attributes(SwordItem.createAttributes(ModToolTiers.ADM, 96, 6f))));
+            () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().attributes(SwordItem.createAttributes(ModToolTiers.ADM, 96, 6f))));
+
+    public static final DeferredItem<Item> AEDA_COBRE = ITEMS.register("aeda_cobre",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> AEDA_PRATA = ITEMS.register("aeda_prata",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> AEDA_OURO = ITEMS.register("aeda_ouro",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> AEDA_AMETISTA = ITEMS.register("aeda_ametista",
+            () -> new Item(new Item.Properties()));
 
 
 

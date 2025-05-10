@@ -1,5 +1,10 @@
 {
   "item.aetheriusmod.espada_adm": "Espada dos Adm's",
 
+  "item.aetheriusmod.aeda_cobre": "Aeda de Cobre",
+  "item.aetheriusmod.aeda_prata": "Aeda de Prata",
+  "item.aetheriusmod.aeda_ouro": "Aeda de Ouro",
+  "item.aetheriusmod.aeda_ametista": "Aeda de Ametista",
+
   "block.aetheriusmod.bloco_ar": "Bloco de Ar"
 }
