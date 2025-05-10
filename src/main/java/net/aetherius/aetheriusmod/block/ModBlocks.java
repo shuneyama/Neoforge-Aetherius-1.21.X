@@ -24,7 +24,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> BLOCO_AR = registerBlock("bloco_ar",
             () -> new BarrierBlock(BlockBehaviour.Properties.of()
-                    .noOcclusion().noLootTable().strength(-1.0F, 3600000.8F).pushReaction(PushReaction.BLOCK)));
+                    .noOcclusion().noLootTable().strength(-1.0F, 3600000.8F).pushReaction(PushReaction.BLOCK).noTerrainParticles()));
 
 
 
