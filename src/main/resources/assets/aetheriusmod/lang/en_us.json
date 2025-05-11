@@ -1,5 +1,14 @@
 {
   "item.aetheriusmod.espada_adm": "Adm's Sword",
+  "item.aetheriusmod.cano": "Pipe",
+  "item.aetheriusmod.experimento_646": "646's Experiment",
+  "item.aetheriusmod.partasana_da_nascente": "Fountain's Pertuisane",
+
+  "tooltip.aetheriusmod.experimento_646.shift_down": "§7§o§kGusta gameplays§r",
+  "tooltip.aetheriusmod.experimento_646": "Press §eShift§r for more information.",
+
+  "tooltip.aetheriusmod.cano.shift_down": "§7§oIt's just a pipe.§r",
+  "tooltip.aetheriusmod.cano": "Press §eShift§r for more information.",
 
   "item.aetheriusmod.aeda_cobre": "Copper Aeda",
   "item.aetheriusmod.aeda_prata": "Silver Aeda",

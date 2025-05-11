@@ -1,11 +1,14 @@
 package net.aetherius.aetheriusmod.item;
 
 import net.aetherius.aetheriusmod.AetheriusMod;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.SwordItem;
+import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.List;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(AetheriusMod.MOD_ID);
@@ -13,10 +16,40 @@ public class ModItems {
 
 
 
-
+// espadinhas :3
     public static final DeferredItem<SwordItem> ESPADA_ADM = ITEMS.register("espada_adm",
             () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().attributes(SwordItem.createAttributes(ModToolTiers.ADM, 96, 6f))));
 
+    public static final DeferredItem<SwordItem> CANO = ITEMS.register("cano",
+            () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().attributes(SwordItem.createAttributes(ModToolTiers.ADM, 10, -1.8f))){
+                @Override
+                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    if (Screen.hasShiftDown()) {
+                        tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.cano.shift_down"));
+                    } else {
+                        tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.cano"));
+                    }
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+    public static final DeferredItem<SwordItem> EXPERIMENTO_646 = ITEMS.register("experimento_646",
+            () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().attributes(SwordItem.createAttributes(ModToolTiers.ADM, 16, -1.8f))){
+                @Override
+                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    if (Screen.hasShiftDown()) {
+                        tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.experimento_646.shift_down"));
+                    } else {
+                        tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.experimento_646"));
+                    }
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+
+    public static final DeferredItem<SwordItem> PARTASANA_DA_NASCENTE = ITEMS.register("partasana_da_nascente",
+            () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().attributes(SwordItem.createAttributes(ModToolTiers.ADM, 16, -1.8f))){
+            });
+
+    // moedas <3
     public static final DeferredItem<Item> AEDA_COBRE = ITEMS.register("aeda_cobre",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> AEDA_PRATA = ITEMS.register("aeda_prata",
@@ -30,6 +63,7 @@ public class ModItems {
     public static final DeferredItem<Item> AEDA_CYANNAZ = ITEMS.register("aeda_cyannaz",
             () -> new Item(new Item.Properties()));
 
+    // chaves !!
     public static final DeferredItem<Item> CHAVERACHA1 = ITEMS.register("chave_ciano_dourado",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CHAVERACHA2 = ITEMS.register("chave_ciano_escuro",
