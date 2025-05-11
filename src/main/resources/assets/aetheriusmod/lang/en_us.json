@@ -5,6 +5,17 @@
   "item.aetheriusmod.aeda_prata": "Silver Aeda",
   "item.aetheriusmod.aeda_ouro": "Golden Aeda",
   "item.aetheriusmod.aeda_ametista": "Amethyst Aeda",
+  "item.aetheriusmod.aeda_rubi": "Ruby Aeda",
+  "item.aetheriusmod.aeda_cyannaz": "Cyannaz Aeda",
+
+  "item.aetheriusmod.chave_ciano_dourado": "Golden Cyan Key",
+  "item.aetheriusmod.chave_ciano_escuro": "Dark Cyan Key",
+  "item.aetheriusmod.chave_verde_dourado": "Golden Green Key",
+  "item.aetheriusmod.chave_verde_escuro": "Dark Green Key",
+  "item.aetheriusmod.chave_roxo_dourado": "Golden Purple Key",
+  "item.aetheriusmod.chave_roxo_escuro": "Dark Purple Key",
+  "item.aetheriusmod.chave_vermelho_dourado": "Golden Red Key",
+  "item.aetheriusmod.chave_vermelho_escuro": "Dark Red Key",
 
   "block.aetheriusmod.bloco_ar": "Air Block"
 }

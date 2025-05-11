@@ -46,13 +46,6 @@ public class AetheriusMod {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.ESPADA_ADM);
-        }
-
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.BLOCO_AR);
-        }
     }
 
     @SubscribeEvent

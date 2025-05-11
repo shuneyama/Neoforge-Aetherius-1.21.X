@@ -30,25 +30,24 @@ public class ModItems {
     public static final DeferredItem<Item> AEDA_CYANNAZ = ITEMS.register("aeda_cyannaz",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> CHAVERACHA1 = ITEMS.register("chave_ciano_dourado",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHAVERACHA2 = ITEMS.register("chave_ciano_escuro",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHAVERACHA3 = ITEMS.register("chave_roxo_dourado",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHAVERACHA4 = ITEMS.register("chave_roxo_escuro",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHAVERACHA5 = ITEMS.register("chave_verde_dourado",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHAVERACHA6 = ITEMS.register("chave_verde_escuro",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHAVERACHA7 = ITEMS.register("chave_vermelho_dourado",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHAVERACHA8 = ITEMS.register("chave_vermelho_escuro",
+            () -> new Item(new Item.Properties()));
 
 
-
-    public static final DeferredItem<Item> CHAVERACHA = ITEMS.register("cyan_black_key",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> CHAVERACHA2 = ITEMS.register("cyan_golden_key",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> CHAVERACHA3 = ITEMS.register("red_black_key",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> CHAVERACHA4 = ITEMS.register("red_golden_key",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> CHAVERACHA5 = ITEMS.register("green_black_key",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> CHAVERACHA6 = ITEMS.register("green_golden_key",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> CHAVERACHA7 = ITEMS.register("purple_black_key",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> CHAVERACHA8 = ITEMS.register("purple_golden_key",
-            () -> new Item(new Item.Properties()));
 
 
 
