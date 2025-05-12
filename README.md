@@ -1,5 +1,5 @@
 
-Installation information
+Código Fonte do Mod Oficial de Aetherius SMP
 =======
 
 This template repository can be directly cloned to get you started with a new
