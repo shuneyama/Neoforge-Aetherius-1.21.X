@@ -3,11 +3,23 @@
   "item.aetheriusmod.cano": "Pipe",
   "item.aetheriusmod.experimento_646": "646's Experiment",
   "item.aetheriusmod.partasana_da_nascente": "Fountain's Pertuisane",
+  "item.aetheriusmod.fulmens_fang": "Fulmen's Fang",
+  "item.aetheriusmod.bloodthrist": "Bloodthrist",
 
   "tooltip.aetheriusmod.experimento_646.shift_down": "§7§o§kGusta gameplays§r",
   "tooltip.aetheriusmod.experimento_646": "Press §eShift§r for more information.",
+
   "tooltip.aetheriusmod.cano.shift_down": "§7§oIt's just a pipe.§r",
   "tooltip.aetheriusmod.cano": "Press §eShift§r for more information.",
+
+  "tooltip.aetheriusmod.fulmens_fang.shift_down": "§3§oFrom the storm came thunder, and from thunder came the fang that cleaves the heavens.§r",
+  "tooltip.aetheriusmod.fulmens_fang": "Press §eShift§r for more information.",
+
+  "tooltip.aetheriusmod.bloodthrist.shift_down": "§4§oForged in primordial chaos, wielded by the will of fallen gods — Bloodthirst doesn't cut flesh, it devours souls.§r",
+  "tooltip.aetheriusmod.bloodthrist": "§k§oasoidhasuidhas§r",
+
+  "tooltip.aetheriusmod.crimson_whisper.shift_down": "§4§o§kPoop Pee§r",
+  "tooltip.aetheriusmod.crimson_whisper": "Press §eShift§r for more information.",
 
   "item.aetheriusmod.aeda_cobre": "Copper Aeda",
   "item.aetheriusmod.aeda_prata": "Silver Aeda",

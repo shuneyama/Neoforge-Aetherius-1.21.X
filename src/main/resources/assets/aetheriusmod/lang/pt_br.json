@@ -3,11 +3,25 @@
   "item.aetheriusmod.cano": "Cano",
   "item.aetheriusmod.experimento_646": "Experimento 646",
   "item.aetheriusmod.partasana_da_nascente": "Partasana da Nascente",
+  "item.aetheriusmod.fulmens_fang": "Presa do Relâmpago",
+  "item.aetheriusmod.bloodthrist": "Bloodthrist",
+  "item.aetheriusmod.crimson_whisper": "Crimson Whisper",
+
 
   "tooltip.aetheriusmod.experimento_646.shift_down": "§7§o§kGusta gameplays§r",
   "tooltip.aetheriusmod.experimento_646": "Pressione §eShift§r para mais informações.",
-  "tooltip.aetheriusmod.cano.shift_down": "§7§oÉ apenas um cano.§r",
+
+  "tooltip.aetheriusmod.cano.shift_down": "§7§oÉ apenas um cano tirado de uma tubulação de rua.§r",
   "tooltip.aetheriusmod.cano": "Pressione §eShift§r para mais informações.",
+
+  "tooltip.aetheriusmod.fulmens_fang.shift_down": "§3§oDa tormenta veio o trovão, e dele nasceu o corte que rasga os céus.§r",
+  "tooltip.aetheriusmod.fulmens_fang": "Pressione §eShift§r para mais informações.",
+
+  "tooltip.aetheriusmod.bloodthrist.shift_down": "§4§oForjada no caos primordial, empunhada pela vontade dos deuses caídos — A Bloodthrist não corta carne, ela devora almas.§r",
+  "tooltip.aetheriusmod.bloodthrist": "§k§oasoidhasuidhas§r",
+
+  "tooltip.aetheriusmod.crimson_whisper.shift_down": "§4§o§kXixi Coco§r",
+  "tooltip.aetheriusmod.crimson_whisper": "Pressione §eShift§r para mais informações.",
 
   "item.aetheriusmod.aeda_cobre": "Aeda de Cobre",
   "item.aetheriusmod.aeda_prata": "Aeda de Prata",
