@@ -2,8 +2,6 @@ package net.aetherius.aetheriusmod;
 
 import net.aetherius.aetheriusmod.block.ModBlocks;
 import net.aetherius.aetheriusmod.item.ModItems;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.neoforged.neoforge.common.CreativeModeTabRegistry;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -34,7 +32,6 @@ public class AetheriusMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
-
         ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
