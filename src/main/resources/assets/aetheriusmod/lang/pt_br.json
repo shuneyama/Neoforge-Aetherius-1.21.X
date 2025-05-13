@@ -16,8 +16,8 @@
   "tooltip.aetheriusmod.cano.shift_down": "§7§oEm um belo dia alguém estava andando pela rua e viu um cano, e pegou este cano.§r",
   "tooltip.aetheriusmod.cano": "§7§oÉ apenas um cano.§r",
 
-  "tooltip.aetheriusmod.experimento_646.shift_down": "§7§o§kGusta gameplays.§r",
-  "tooltip.aetheriusmod.experimento_646": "Pressione §eShift§r para mais informações.",
+  "tooltip.aetheriusmod.experimento_646.shift_down": "§7§oCriada para algo maior, não para cortar mas sim para §r§8§k§oGuardar algo maior.§r",
+  "tooltip.aetheriusmod.experimento_646": "§7§oNão é uma arma... é um receptáculo.§r",
 
   "tooltip.aetheriusmod.crimson_whisper.shift_down": "§4§o§kXixi Coco.§r",
   "tooltip.aetheriusmod.crimson_whisper": "Pressione §eShift§r para mais informações.",
@@ -28,17 +28,17 @@
   "tooltip.aetheriusmod.fulmens_fang.shift_down": "§3§oQuem empunha a Foice dança com o trovão - pois em sua lâmina dorme a tempestade, sonhando furiosa no silêncio do aço.§r",
   "tooltip.aetheriusmod.fulmens_fang": "Da tormenta veio o trovão, e dele nasceu o corte que rasga os céus.",
 
-  "tooltip.aetheriusmod.dark_judgment.shift_down": "§4§oForjada no caos primordial, empunhada pela vontade dos deuses caídos — A Dark Judgment não só corta carne, ela devora almas.§r",
-  "tooltip.aetheriusmod.dark_judgment": "Pressione §eShift§r para mais informações.",
+  "tooltip.aetheriusmod.dark_judgment.shift_down": " §4§oA criação de §4§lDark Judgment §4§onão foi um ato de criação consciente, quando as almas começaram a vagar em um limbo sem fim e o ciclo da vida foi interrompido por aqueles que desafiavam sua própria mortalidade, uma arma nasceu do próprio tecido do Submundo.§r",
+  "tooltip.aetheriusmod.dark_judgment": "§4§lDark Judgment §r§4§onão ceifa por raiva, mas por necessidade. Ela corrige o que foi distorcido, encerra o que já passou da hora, e arranca da existência tudo o que se recusa a aceitar o fim.§r",
 
-  "tooltip.aetheriusmod.divine_silence.shift_down": "§5§oAntes da luz, antes mesmo do conceito de criação, havia o Vazio — não como ausência, mas como vontade. E dessa vontade, nasceu uma arma. Não foi forjada por mãos, nem invocada por rituais. A Divine Silence simplesmente passou a existir, como se o próprio universo tivesse cometido um erro.§r",
-  "tooltip.aetheriusmod.divine_silence": "Pressione §eShift§r para mais informações.",
+  "tooltip.aetheriusmod.divine_silence.shift_down": "§5§oAntes da luz, antes mesmo do conceito de criação, havia o Vazio - não como ausência, mas como vontade. E dessa vontade, nasceu uma arma. Não foi forjada por mãos, nem invocada por rituais. A Divine Silence simplesmente passou a existir, como se o próprio universo tivesse cometido um erro.§r",
+  "tooltip.aetheriusmod.divine_silence": "§5§oOnde §5§lDivine Silence §r§5§otoca até o tempo hesita, pois diante do Vazio, até os deuses se calam.§r",
 
   "tooltip.aetheriusmod.thyrsus.shift_down": "§a§oForjada a partir da vontade primordial da floresta de manter o seu ritmo perpétuo de serenidade.§r",
   "tooltip.aetheriusmod.thyrsus": "§2Seu pulsar é como uma seiva de esperança.§r",
 
-  "tooltip.aetheriusmod.lamina_da_alvorada.shift_down": "Brilha não com fogo, mas com a lembrança do amanhecer.",
-  "tooltip.aetheriusmod.lamina_da_alvorada": "Pressione §eShift§r para mais informações.",
+  "tooltip.aetheriusmod.lamina_da_alvorada.shift_down": "alguma forja ai",
+  "tooltip.aetheriusmod.lamina_da_alvorada": "Brilha não com fogo, mas com a lembrança do amanhecer.",
 
   "item.aetheriusmod.aeda_cobre": "Aeda de Cobre",
   "item.aetheriusmod.aeda_prata": "Aeda de Prata",
