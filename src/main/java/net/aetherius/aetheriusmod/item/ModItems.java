@@ -34,6 +34,20 @@ public class ModItems {
                     }
                 });
 
+        public static final DeferredItem<SwordItem> ESPADA_ESPECIAL = ITEMS.register("espada_especial",
+                () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
+                        .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 9, -2.6f))){
+                    @Override
+                    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                        if (Screen.hasShiftDown()) {
+                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.espada_especial.shift_down"));
+                        } else {
+                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.espada_especial"));
+                        }
+                        super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                    }
+                });
+
         public static final DeferredItem<SwordItem> CANO = ITEMS.register("cano",
                 () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1).durability(0)
                         .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 10, -1.8f))){

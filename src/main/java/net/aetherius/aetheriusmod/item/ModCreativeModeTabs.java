@@ -4,6 +4,7 @@ import net.aetherius.aetheriusmod.AetheriusMod;
 import net.aetherius.aetheriusmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
@@ -17,10 +18,11 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> AETHERIUS_ITENS_TAB = CREATIVE_MODE_TAB.register("aetherius_itens_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AEDA_CYANNAZ.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(AetheriusMod.MOD_ID, "aetherius_blocos_tab"))
                     .title(Component.translatable("creativetab.aetheriusmod.aetherius_itens"))
                     .displayItems((itemDisplayParameters, output) -> {
 
-                        //moedas=========================
+//moedas !! ============================================================================================================
                         output.accept(ModItems.AEDA_CYANNAZ);
                         output.accept(ModItems.AEDA_AMETISTA);
                         output.accept(ModItems.AEDA_COBRE);
@@ -28,7 +30,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AEDA_PRATA);
                         output.accept(ModItems.AEDA_RUBI);
 
-                        //chaves=========================
+//chaves !! ============================================================================================================
                         output.accept(ModItems.CHAVERACHA1);
                         output.accept(ModItems.CHAVERACHA2);
                         output.accept(ModItems.CHAVERACHA3);
@@ -41,10 +43,11 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> AETHERIUS_BLOCOS_TAB = CREATIVE_MODE_TAB.register("aetherius_blocos_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.BLOCO_AR.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(AetheriusMod.MOD_ID, "aetherius_armas_tab"))
                     .title(Component.translatable("creativetab.aetheriusmod.aetherius_blocos"))
                     .displayItems((itemDisplayParameters, output) -> {
 
-                        //moedas=========================
+//blocos !! ============================================================================================================
                         output.accept(ModBlocks.BLOCO_AR);
                     }).build());
 
@@ -53,12 +56,13 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.aetheriusmod.aetherius_armas"))
                     .displayItems((itemDisplayParameters, output) -> {
 
-                        //moedas=========================
+//armas !! =============================================================================================================
                         output.accept(ModItems.CANO);
                         output.accept(ModItems.CRIMSON_WHISPER);
                         output.accept(ModItems.DARK_JUDGMENT);
                         output.accept(ModItems.DIVINE_SILENCE);
                         output.accept(ModItems.ESPADA_ADM);
+                        output.accept(ModItems.ESPADA_ESPECIAL);
                         output.accept(ModItems.EXPERIMENTO_646);
                         output.accept(ModItems.FULMENS_FANG);
                         output.accept(ModItems.LAMINA_DA_ALVORADA);

@@ -1,5 +1,6 @@
 {
   "item.aetheriusmod.espada_adm": "Espada dos Adm's",
+  "item.aetheriusmod.espada_especial": "Espada Especial",
   "item.aetheriusmod.cano": "Cano",
   "item.aetheriusmod.experimento_646": "§8§lExperimento §6§l646§r",
   "item.aetheriusmod.crimson_whisper": "§4§l§kFoiceFeitaPorHell§r",
@@ -12,6 +13,9 @@
 
   "tooltip.aetheriusmod.espada_adm.shift_down": "§7§oAd§r",
   "tooltip.aetheriusmod.espada_adm": "§7§om's.§r",
+
+  "tooltip.aetheriusmod.espada_especial.shift_down": "§7§oSua lâmina escolhe o guerreiro — e recusa ser empunhada por quem não tem alma de lenda.§r",
+  "tooltip.aetheriusmod.espada_especial": "§7§oForjada para mãos raras...§r",
 
   "tooltip.aetheriusmod.cano.shift_down": "§7§oEm um belo dia alguém estava andando pela rua e viu um cano, e pegou este cano.§r",
   "tooltip.aetheriusmod.cano": "§7§oÉ apenas um cano.§r",
