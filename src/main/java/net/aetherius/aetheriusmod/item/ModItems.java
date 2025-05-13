@@ -22,7 +22,17 @@ public class ModItems {
 // espadinhas :3 =======================================================================================================
         public static final DeferredItem<SwordItem> ESPADA_ADM = ITEMS.register("espada_adm",
                 () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
-                        .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 50, 1f))));
+                        .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 124, 60f))){
+                    @Override
+                    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                        if (Screen.hasShiftDown()) {
+                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.espada_adm.shift_down"));
+                        } else {
+                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.espada_adm"));
+                        }
+                        super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                    }
+                });
 
         public static final DeferredItem<SwordItem> CANO = ITEMS.register("cano",
                 () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1).durability(0)
@@ -40,7 +50,7 @@ public class ModItems {
 
         public static final DeferredItem<SwordItem> EXPERIMENTO_646 = ITEMS.register("experimento_646",
                 () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
-                        .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 14, -2f))){
+                        .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 14, -2.2f))){
                     @Override
                     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
                         if (Screen.hasShiftDown()) {
@@ -52,9 +62,23 @@ public class ModItems {
                     }
                 });
 
+        public static final DeferredItem<SwordItem> CRIMSON_WHISPER = ITEMS.register("crimson_whisper",
+                () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
+                        .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 26, -1.5f))){
+                    @Override
+                    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                        if (Screen.hasShiftDown()) {
+                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.crimson_whisper.shift_down"));
+                        } else {
+                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.crimson_whisper"));
+                        }
+                        super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                    }
+                });
+
         public static final DeferredItem<SwordItem> AURORA_HIBERNA = ITEMS.register("aurora_hiberna",
                 () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
-                        .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 16, -1.8f))){
+                        .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 96, 1f))){
                     @Override
                     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
                         if (Screen.hasShiftDown()) {
@@ -68,7 +92,7 @@ public class ModItems {
 
         public static final DeferredItem<SwordItem> FULMENS_FANG = ITEMS.register("fulmens_fang",
                 () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
-                        .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 96, 6f))){
+                        .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 96, 1f))){
                     @Override
                     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
                         if (Screen.hasShiftDown()) {
@@ -82,7 +106,7 @@ public class ModItems {
 
         public static final DeferredItem<SwordItem> DARK_JUDGMENT = ITEMS.register("dark_judgment",
                 () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
-                        .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 96, 6f))){
+                        .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 96, 1f))){
                     @Override
                     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
                         if (Screen.hasShiftDown()) {
@@ -94,61 +118,49 @@ public class ModItems {
                     }
                 });
 
-        public static final DeferredItem<SwordItem> CRIMSON_WHISPER = ITEMS.register("crimson_whisper",
+        public static final DeferredItem<SwordItem> DIVINE_SILENCE = ITEMS.register("divine_silence",
                 () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
-                        .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 26, -1.8f))){
+                        .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 96, 1f))){
                     @Override
                     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
                         if (Screen.hasShiftDown()) {
-                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.crimson_whisper.shift_down"));
+                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.divine_silence.shift_down"));
                         } else {
-                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.crimson_whisper"));
+                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.divine_silence"));
                         }
                         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                     }
                 });
 
-    public static final DeferredItem<SwordItem> THYRSUS = ITEMS.register("thyrsus",
-            () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
-                    .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 26, -1.8f))){
-                @Override
-                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    if (Screen.hasShiftDown()) {
-                        tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.thyrsus.shift_down"));
-                    } else {
-                        tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.thyrsus"));
+        public static final DeferredItem<SwordItem> THYRSUS = ITEMS.register("thyrsus",
+                () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
+                        .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 96, 1f))){
+                    @Override
+                    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                        if (Screen.hasShiftDown()) {
+                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.thyrsus.shift_down"));
+                        } else {
+                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.thyrsus"));
+                        }
+                        super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                     }
-                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
-                }
-            });
+                });
 
-    public static final DeferredItem<SwordItem> DIVINE_SILENCE = ITEMS.register("divine_silence",
-            () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
-                    .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 26, -1.8f))){
-                @Override
-                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    if (Screen.hasShiftDown()) {
-                        tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.divine_silence.shift_down"));
-                    } else {
-                        tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.divine_silence"));
-                    }
-                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
-                }
-            });
 
-    public static final DeferredItem<SwordItem> LAMINA_DA_ALVORADA = ITEMS.register("lamina_da_alvorada",
-            () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
-                    .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 26, -1.8f))){
-                @Override
-                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    if (Screen.hasShiftDown()) {
-                        tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.lamina_da_alvorada.shift_down"));
-                    } else {
-                        tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.lamina_da_alvorada"));
+
+        public static final DeferredItem<SwordItem> LAMINA_DA_ALVORADA = ITEMS.register("lamina_da_alvorada",
+                () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
+                        .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 96, 1f))){
+                    @Override
+                    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                        if (Screen.hasShiftDown()) {
+                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.lamina_da_alvorada.shift_down"));
+                        } else {
+                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.lamina_da_alvorada"));
+                        }
+                        super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                     }
-                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
-                }
-            });
+                });
 
 
 // moedas <3 ===========================================================================================================
