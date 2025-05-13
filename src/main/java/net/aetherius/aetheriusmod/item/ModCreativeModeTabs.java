@@ -39,6 +39,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CHAVERACHA6);
                         output.accept(ModItems.CHAVERACHA7);
                         output.accept(ModItems.CHAVERACHA8);
+// elementos !! ========================================================================================================
+                        output.accept(ModItems.ELEMENTO_FOGO);
                     }).build());
 
     public static final Supplier<CreativeModeTab> AETHERIUS_BLOCOS_TAB = CREATIVE_MODE_TAB.register("aetherius_blocos_tab",

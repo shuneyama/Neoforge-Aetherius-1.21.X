@@ -5,7 +5,7 @@
   "item.aetheriusmod.experimento_646": "§8§lExperimento §6§l646§r",
   "item.aetheriusmod.crimson_whisper": "§4§l§kFoiceFeitaPorHell§r",
   "item.aetheriusmod.aurora_hiberna": "§3§kiii §b§lAurora Hiberna §3§kiii§r",
-  "item.aetheriusmod.luz_da_ultima_fenix": "§3§kiii §c§lLuz da Última Fênix §3§kiii§r",
+  "item.aetheriusmod.luz_da_ultima_fenix": "§6§kiii §c§lLuz da Última Fênix §6§kiii§r",
   "item.aetheriusmod.fulmens_fang": "§f§kilj §3§lFulmen's Fang§r §f§kilj§r",
   "item.aetheriusmod.dark_judgment": "§0§kiii §4§lDark Judgment §0§kiii§r",
   "item.aetheriusmod.divine_silence": "§0§kiii §5§lDivine Silence §0§kiii§r",
@@ -63,6 +63,8 @@
   "item.aetheriusmod.chave_roxo_escuro": "Dark Purple Key",
   "item.aetheriusmod.chave_vermelho_dourado": "Golden Red Key",
   "item.aetheriusmod.chave_vermelho_escuro": "Dark Red Key",
+
+  "item.aetheriusmod.elemento_fogo": "Fogo",
 
   "block.aetheriusmod.bloco_ar": "Air Block",
 

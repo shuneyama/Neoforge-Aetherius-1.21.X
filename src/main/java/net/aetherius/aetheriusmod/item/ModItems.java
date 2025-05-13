@@ -223,6 +223,11 @@ public class ModItems {
                 () -> new Item(new Item.Properties().stacksTo(1)));
 
 
+// elementos !! ========================================================================================================
+        public static final DeferredItem<Item> ELEMENTO_FOGO = ITEMS.register("elemento_fogo",
+                () -> new Item(new Item.Properties().stacksTo(16)));
+
+
 
 
 
