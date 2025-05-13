@@ -5,14 +5,15 @@
   "item.aetheriusmod.experimento_646": "§8§lExperimento §6§l646§r",
   "item.aetheriusmod.crimson_whisper": "§4§l§kFoiceFeitaPorHell§r",
   "item.aetheriusmod.aurora_hiberna": "§3§kiii §b§lAurora Hiberna §3§kiii§r",
+  "item.aetheriusmod.luz_da_ultima_fenix": "§3§kiii §c§lLuz da Última Fênix §3§kiii§r",
   "item.aetheriusmod.fulmens_fang": "§f§kilj §3§lFulmen's Fang§r §f§kilj§r",
   "item.aetheriusmod.dark_judgment": "§0§kiii §4§lDark Judgment §0§kiii§r",
   "item.aetheriusmod.divine_silence": "§0§kiii §5§lDivine Silence §0§kiii§r",
   "item.aetheriusmod.thyrsus": "§0§kilj §2§lThyrsus§r §0§kilj§r",
   "item.aetheriusmod.lamina_da_alvorada": "§f§klal §6§lLâmina da Alvorada §f§klal§r",
 
-  "tooltip.aetheriusmod.espada_adm.shift_down": "§7§oAd§r",
-  "tooltip.aetheriusmod.espada_adm": "§7§om's.§r",
+  "tooltip.aetheriusmod.espada_adm.shift_down": "§7§om's.§r",
+  "tooltip.aetheriusmod.espada_adm": "§7§oAd§r",
 
   "tooltip.aetheriusmod.espada_especial.shift_down": "§7§oSua lâmina escolhe o guerreiro — e recusa ser empunhada por quem não tem alma de lenda.§r",
   "tooltip.aetheriusmod.espada_especial": "§7§oForjada para mãos raras...§r",
@@ -28,6 +29,9 @@
 
   "tooltip.aetheriusmod.aurora_hiberna.shift_down": "§b§oImbuída com o frio ancestral, ela sussurra promessas de morte gelada.§r",
   "tooltip.aetheriusmod.aurora_hiberna": "§3Duas lâminas,§r §fum só destino.§r",
+
+  "tooltip.aetheriusmod.luz_da_ultima_fenix.shift_down": "§6§oForjada nas cinzas. Renascida na luz. O fogo que renasce, luz que nunca morre.§r",
+  "tooltip.aetheriusmod.luz_da_ultima_fenix": "§k§6iiiiiiiiiiiiiiiiiii§r",
 
   "tooltip.aetheriusmod.fulmens_fang.shift_down": "§3§oQuem empunha a Foice dança com o trovão - pois em sua lâmina dorme a tempestade, sonhando furiosa no silêncio do aço.§r",
   "tooltip.aetheriusmod.fulmens_fang": "Da tormenta veio o trovão, e dele nasceu o corte que rasga os céus.",

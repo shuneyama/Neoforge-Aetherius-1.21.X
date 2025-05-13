@@ -67,6 +67,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FULMENS_FANG);
                         output.accept(ModItems.LAMINA_DA_ALVORADA);
                         output.accept(ModItems.AURORA_HIBERNA);
+                        output.accept(ModItems.LUZ_DA_ULTIMA_FENIX);
                         output.accept(ModItems.THYRSUS);
                     }).build());
 

@@ -104,6 +104,20 @@ public class ModItems {
                     }
                 });
 
+        public static final DeferredItem<SwordItem> LUZ_DA_ULTIMA_FENIX = ITEMS.register("luz_da_ultima_fenix",
+                () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
+                        .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 96, 1f))){
+                    @Override
+                    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                        if (Screen.hasShiftDown()) {
+                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.luz_da_ultima_fenix.shift_down"));
+                        } else {
+                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.luz_da_ultima_fenix"));
+                        }
+                        super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                    }
+                });
+
         public static final DeferredItem<SwordItem> FULMENS_FANG = ITEMS.register("fulmens_fang",
                 () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
                         .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 96, 1f))){
@@ -159,8 +173,6 @@ public class ModItems {
                         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                     }
                 });
-
-
 
         public static final DeferredItem<SwordItem> LAMINA_DA_ALVORADA = ITEMS.register("lamina_da_alvorada",
                 () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)

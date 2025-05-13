@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+
+  "key": {
+    "A": {
+      "item": "aetheriusmod:aeda_ouro"
+    }
+  },
+
+  "pattern": [
+    "AA",
+    "AA"
+  ],
+
+  "result": {
+    "count": 1,
+    "id": "aetheriusmod:aeda_rubi"
+  }
+}
