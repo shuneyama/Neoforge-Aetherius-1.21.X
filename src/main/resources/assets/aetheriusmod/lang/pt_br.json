@@ -1,27 +1,41 @@
 {
   "item.aetheriusmod.espada_adm": "Espada dos Adm's",
   "item.aetheriusmod.cano": "Cano",
-  "item.aetheriusmod.experimento_646": "Experimento 646",
-  "item.aetheriusmod.partasana_da_nascente": "Partasana da Nascente",
-  "item.aetheriusmod.fulmens_fang": "Presa do Relâmpago",
-  "item.aetheriusmod.bloodthrist": "Bloodthrist",
-  "item.aetheriusmod.crimson_whisper": "Crimson Whisper",
+  "item.aetheriusmod.experimento_646": "§8§lExperimento §6§l646§r",
+  "item.aetheriusmod.crimson_whisper": "§4§l§kFoiceFeitaPorHell§r",
+  "item.aetheriusmod.aurora_hiberna": "§3§kiii §b§lAurora Hiberna §3§kiii§r",
+  "item.aetheriusmod.fulmens_fang": "§f§kilj §3§lFulmen's Fang§r §f§kilj§r",
+  "item.aetheriusmod.dark_judgment": "§0§kiii §4§lDark Judgment §0§kiii§r",
+  "item.aetheriusmod.divine_silence": "§0§kiii §5§lDivine Silence §0§kiii§r",
+  "item.aetheriusmod.thyrsus": "§0§kilj §2§lThyrsus§r §0§kilj§r",
+  "item.aetheriusmod.lamina_da_alvorada": "§f§klal §6§lLâmina da Alvorada §f§klal§r",
 
+  "tooltip.aetheriusmod.cano.shift_down": "§7§oEm um belo dia alguém estava andando pela rua e viu um cano, e pegou este cano.§r",
+  "tooltip.aetheriusmod.cano": "§7§oÉ apenas um cano.§r",
 
-  "tooltip.aetheriusmod.experimento_646.shift_down": "§7§o§kGusta gameplays§r",
+  "tooltip.aetheriusmod.experimento_646.shift_down": "§7§o§kGusta gameplays.§r",
   "tooltip.aetheriusmod.experimento_646": "Pressione §eShift§r para mais informações.",
 
-  "tooltip.aetheriusmod.cano.shift_down": "§7§oÉ apenas um cano tirado de uma tubulação de rua.§r",
-  "tooltip.aetheriusmod.cano": "Pressione §eShift§r para mais informações.",
-
-  "tooltip.aetheriusmod.fulmens_fang.shift_down": "§3§oDa tormenta veio o trovão, e dele nasceu o corte que rasga os céus.§r",
-  "tooltip.aetheriusmod.fulmens_fang": "Pressione §eShift§r para mais informações.",
-
-  "tooltip.aetheriusmod.bloodthrist.shift_down": "§4§oForjada no caos primordial, empunhada pela vontade dos deuses caídos — A Bloodthrist não corta carne, ela devora almas.§r",
-  "tooltip.aetheriusmod.bloodthrist": "§k§oasoidhasuidhas§r",
-
-  "tooltip.aetheriusmod.crimson_whisper.shift_down": "§4§o§kXixi Coco§r",
+  "tooltip.aetheriusmod.crimson_whisper.shift_down": "§4§o§kXixi Coco.§r",
   "tooltip.aetheriusmod.crimson_whisper": "Pressione §eShift§r para mais informações.",
+
+  "tooltip.aetheriusmod.aurora_hiberna.shift_down": "§b§oImbuída com o frio ancestral, ela sussurra promessas de morte gelada.§r",
+  "tooltip.aetheriusmod.aurora_hiberna": "§3Duas lâminas,§r §fum só destino.§r",
+
+  "tooltip.aetheriusmod.fulmens_fang.shift_down": "§3§oQuem empunha a Foice dança com o trovão - pois em sua lâmina dorme a tempestade, sonhando furiosa no silêncio do aço.§r",
+  "tooltip.aetheriusmod.fulmens_fang": "Da tormenta veio o trovão, e dele nasceu o corte que rasga os céus.",
+
+  "tooltip.aetheriusmod.dark_judgment.shift_down": "§4§oForjada no caos primordial, empunhada pela vontade dos deuses caídos — A Dark Judgment não só corta carne, ela devora almas.§r",
+  "tooltip.aetheriusmod.dark_judgment": "Pressione §eShift§r para mais informações.",
+
+  "tooltip.aetheriusmod.divine_silence.shift_down": "§5§oAntes da luz, antes mesmo do conceito de criação, havia o Vazio — não como ausência, mas como vontade. E dessa vontade, nasceu uma arma. Não foi forjada por mãos, nem invocada por rituais. A Divine Silence simplesmente passou a existir, como se o próprio universo tivesse cometido um erro.§r",
+  "tooltip.aetheriusmod.divine_silence": "Pressione §eShift§r para mais informações.",
+
+  "tooltip.aetheriusmod.thyrsus.shift_down": "§a§oForjada a partir da vontade primordial da floresta de manter o seu ritmo perpétuo de serenidade.§r",
+  "tooltip.aetheriusmod.thyrsus": "§2Seu pulsar é como uma seiva de esperança.§r",
+
+  "tooltip.aetheriusmod.lamina_da_alvorada.shift_down": "Brilha não com fogo, mas com a lembrança do amanhecer.",
+  "tooltip.aetheriusmod.lamina_da_alvorada": "Pressione §eShift§r para mais informações.",
 
   "item.aetheriusmod.aeda_cobre": "Aeda de Cobre",
   "item.aetheriusmod.aeda_prata": "Aeda de Prata",
@@ -41,6 +55,8 @@
 
   "block.aetheriusmod.bloco_ar": "Bloco de Ar",
 
-  "creativetab.aetherius.mod.aetherius_items": "Aetherius Itens"
+  "creativetab.aetheriusmod.aetherius_itens": "Aetherius Itens",
+  "creativetab.aetheriusmod.aetherius_blocos": "Aetherius Blocos",
+  "creativetab.aetheriusmod.aetherius_armas": "Aetherius Armas"
 
 }
