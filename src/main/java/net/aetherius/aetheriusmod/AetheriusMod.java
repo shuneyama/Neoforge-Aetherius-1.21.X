@@ -1,6 +1,7 @@
 package net.aetherius.aetheriusmod;
 
 import net.aetherius.aetheriusmod.block.ModBlocks;
+import net.aetherius.aetheriusmod.item.ModCreativeModeTabs;
 import net.aetherius.aetheriusmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -30,6 +31,8 @@ public class AetheriusMod {
         modEventBus.addListener(this::commonSetup);
 
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);

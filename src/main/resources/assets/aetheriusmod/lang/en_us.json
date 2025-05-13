@@ -37,5 +37,6 @@
   "item.aetheriusmod.chave_vermelho_dourado": "Golden Red Key",
   "item.aetheriusmod.chave_vermelho_escuro": "Dark Red Key",
 
-  "block.aetheriusmod.bloco_ar": "Air Block"
+  "block.aetheriusmod.bloco_ar": "Air Block",
+  "creativetab.aetherius.mod.aetherius_items": "Aetherius Items"
 }
