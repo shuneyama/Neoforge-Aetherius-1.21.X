@@ -10,7 +10,7 @@
   "item.aetheriusmod.dark_judgment": "§0§kiii §4§lDark Judgment §0§kiii§r",
   "item.aetheriusmod.divine_silence": "§0§kiii §5§lDivine Silence §0§kiii§r",
   "item.aetheriusmod.thyrsus": "§0§kiii §2§lThyrsus§r §0§kiii§r",
-  "item.aetheriusmod.lamina_da_alvorada": "§f§klal §6§lLâmina da Alvorada §f§klal§r",
+  "item.aetheriusmod.lamina_da_alvorada": "§e§klal §6§lLâmina da Alvorada §e§klal§r",
 
   "tooltip.aetheriusmod.espada_adm.shift_down": "§7§om's.§r",
   "tooltip.aetheriusmod.espada_adm": "§7§oAd§r",
@@ -31,7 +31,7 @@
   "tooltip.aetheriusmod.aurora_hiberna": "Two blades, one destiny.",
 
   "tooltip.aetheriusmod.luz_da_ultima_fenix.shift_down": "§6§oForged in ashes. Reborn in light. Fire that's reborn, light that never dies.§r",
-  "tooltip.aetheriusmod.luz_da_ultima_fenix": "§6§kiiiiiiiiiiiiiiiiiii§r",
+  "tooltip.aetheriusmod.luz_da_ultima_fenix": "§6An inner light§r that never fades.§r",
 
   "tooltip.aetheriusmod.fulmens_fang.shift_down": "§3§oWho wields the Scythe dances with thunder - for within its blade sleeps the storm, dreaming fiercely in the silence of steel.§r",
   "tooltip.aetheriusmod.fulmens_fang": "Press §eShift§r for more information.",
