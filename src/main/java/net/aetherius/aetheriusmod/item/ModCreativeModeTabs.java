@@ -78,6 +78,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AURORA_HIBERNA);
                         output.accept(ModItems.LUZ_DA_ULTIMA_FENIX);
                         output.accept(ModItems.THYRSUS);
+                        output.accept(ModItems.PROTOCOLO_GENESIS);
                     }).build());
 
 
