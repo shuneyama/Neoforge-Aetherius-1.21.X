@@ -12,6 +12,8 @@
   "item.aetheriusmod.divine_silence": "§0§kiii §5§lDivine Silence §0§kiii§r",
   "item.aetheriusmod.thyrsus": "§0§kilj §2§lThyrsus§r §0§kilj§r",
   "item.aetheriusmod.lamina_da_alvorada": "§e§klal §6§lLâmina da Alvorada §f§klal§r",
+  "item.aetheriusmod.protocolo_genesis": "§c§klal §7§lProtocolo Gênesis §c§klal§r",
+
 
   "tooltip.aetheriusmod.espada_adm.shift_down": "§7§om's.§r",
   "tooltip.aetheriusmod.espada_adm": "§7§oAd§r",
@@ -52,6 +54,8 @@
   "tooltip.aetheriusmod.lamina_da_alvorada.shift_down": "alguma forja ai",
   "tooltip.aetheriusmod.lamina_da_alvorada": "Brilha não com fogo, mas com a lembrança do amanhecer.",
 
+  "tooltip.aetheriusmod.protocolo_genesis.shift_down": "§7§oUsada uma vez para iniciar a era das máquinas. Será usada novamente para encerrá-la.§r",
+  "tooltip.aetheriusmod.protocolo_genesis": "§c§oEla não corta. Ela apaga. E substitui.§r",
   "item.aetheriusmod.aeda_cobre": "Aeda de Cobre",
   "item.aetheriusmod.aeda_prata": "Aeda de Prata",
   "item.aetheriusmod.aeda_ouro": "Aeda de Ouro",

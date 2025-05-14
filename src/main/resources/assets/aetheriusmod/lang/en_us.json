@@ -12,6 +12,9 @@
   "item.aetheriusmod.divine_silence": "§0§kiii §5§lDivine Silence §0§kiii§r",
   "item.aetheriusmod.thyrsus": "§0§kiii §2§lThyrsus§r §0§kiii§r",
   "item.aetheriusmod.lamina_da_alvorada": "§e§klal §6§lLâmina da Alvorada §e§klal§r",
+  "item.aetheriusmod.protocolo_genesis": "§c§klal §7§lProtocolo Gênesis §c§klal§r",
+
+
 
   "tooltip.aetheriusmod.espada_adm.shift_down": "§7§om's.§r",
   "tooltip.aetheriusmod.espada_adm": "§7§oAd§r",
@@ -51,6 +54,9 @@
 
   "tooltip.aetheriusmod.lamina_da_alvorada.shift_down": "It shines not with fire, but with the memory of dawn.",
   "tooltip.aetheriusmod.lamina_da_alvorada": "Press §eShift§r for more information.",
+
+  "tooltip.aetheriusmod.protocolo_genesis.shift_down": "§7§oUsed once to begin the age of machines. It will be used again to end it.§r",
+  "tooltip.aetheriusmod.protocolo_genesis": "§c§She doesn't cut. It erases. And replaces.§r",
 
   "item.aetheriusmod.aeda_cobre": "Copper Aeda",
   "item.aetheriusmod.aeda_prata": "Silver Aeda",

@@ -200,6 +200,20 @@ public class ModItems {
                     }
                 });
 
+    public static final DeferredItem<SwordItem> PROTOCOLO_GENESIS = ITEMS.register("protocolo_genesis",
+            () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
+                    .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 96, 1f))){
+                @Override
+                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    if (Screen.hasShiftDown()) {
+                        tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.protocolo_genesis.shift_down"));
+                    } else {
+                        tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.protocolo_genesis"));
+                    }
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+
 
 // moedas <3 ===========================================================================================================
         public static final DeferredItem<Item> AEDA_COBRE = ITEMS.register("aeda_cobre",

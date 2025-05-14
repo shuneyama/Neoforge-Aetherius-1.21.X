@@ -1360,6 +1360,7 @@
 		{
 			"from": [4.2, 12, 8.05],
 			"to": [11.2, 19, 8.05],
+			"light_emission": 15,
 			"rotation": {"angle": -45, "axis": "z", "origin": [4.2, 12, 8.1]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#3"},
@@ -1369,6 +1370,7 @@
 		{
 			"from": [4.2, 7.4, 8.05],
 			"to": [11.2, 14.4, 8.05],
+			"light_emission": 15,
 			"rotation": {"angle": -45, "axis": "z", "origin": [4.2, 7.4, 8.1]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#3"},
