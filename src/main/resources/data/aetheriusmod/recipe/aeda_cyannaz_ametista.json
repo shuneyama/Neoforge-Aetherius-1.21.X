@@ -4,17 +4,18 @@
 
   "key": {
     "A": {
-      "item": "aetheriusmod:aeda_ouro"
+      "item": "aetheriusmod:aeda_cyannaz"
     }
   },
 
   "pattern": [
-    "AA",
-    "AA"
+    "AAA",
+    "AAA",
+    "AAA"
   ],
 
   "result": {
     "count": 1,
-    "id": "aetheriusmod:aeda_rubi"
+    "id": "aetheriusmod:aeda_ametista"
   }
 }

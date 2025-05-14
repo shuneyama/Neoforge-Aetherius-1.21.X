@@ -2,11 +2,8 @@ package net.aetherius.aetheriusmod.item;
 
 import net.aetherius.aetheriusmod.AetheriusMod;
 import net.minecraft.client.gui.screens.Screen;
-import net.minecraft.core.component.DataComponentType;
 import net.minecraft.network.chat.Component;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.item.*;
-import net.minecraft.world.item.component.Unbreakable;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
