@@ -4,6 +4,7 @@ import net.aetherius.aetheriusmod.AetheriusMod;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.component.DataComponentType;
 import net.minecraft.network.chat.Component;
+import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.component.Unbreakable;
 import net.neoforged.bus.api.IEventBus;
@@ -57,6 +58,20 @@ public class ModItems {
                             tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.cano.shift_down"));
                         } else {
                             tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.cano"));
+                        }
+                        super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                    }
+                });
+
+        public static final DeferredItem<SwordItem> PARAR = ITEMS.register("parar",
+                () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
+                        .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 124, 60f))){
+                    @Override
+                    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                        if (Screen.hasShiftDown()) {
+                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.parar.shift_down"));
+                        } else {
+                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.parar"));
                         }
                         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                     }
@@ -226,6 +241,18 @@ public class ModItems {
 // elementos !! ========================================================================================================
         public static final DeferredItem<Item> ELEMENTO_FOGO = ITEMS.register("elemento_fogo",
                 () -> new Item(new Item.Properties().stacksTo(16)));
+        public static final DeferredItem<Item> ELEMENTO_GELO = ITEMS.register("elemento_gelo",
+                        () -> new Item(new Item.Properties().stacksTo(16)));
+        public static final DeferredItem<Item> ELEMENTO_RAIO = ITEMS.register("elemento_raio",
+                        () -> new Item(new Item.Properties().stacksTo(16)));
+        public static final DeferredItem<Item> ELEMENTO_NATUREZA = ITEMS.register("elemento_natureza",
+                        () -> new Item(new Item.Properties().stacksTo(16)));
+        public static final DeferredItem<Item> ELEMENTO_SACRA = ITEMS.register("elemento_sacra",
+                        () -> new Item(new Item.Properties().stacksTo(16)));
+        public static final DeferredItem<Item> ELEMENTO_SANGUE = ITEMS.register("elemento_sangue",
+                        () -> new Item(new Item.Properties().stacksTo(16)));
+        public static final DeferredItem<Item> ELEMENTO_VAZIO = ITEMS.register("elemento_vazio",
+                                () -> new Item(new Item.Properties().stacksTo(16)));
 
 
 

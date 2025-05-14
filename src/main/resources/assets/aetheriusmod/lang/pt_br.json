@@ -2,6 +2,7 @@
   "item.aetheriusmod.espada_adm": "Espada dos Adm's",
   "item.aetheriusmod.espada_especial": "Espada Especial",
   "item.aetheriusmod.cano": "Cano",
+  "item.aetheriusmod.parar": "Parar",
   "item.aetheriusmod.experimento_646": "§8§lExperimento §6§l646§r",
   "item.aetheriusmod.crimson_whisper": "§4§l§kFoiceFeitaPorHell§r",
   "item.aetheriusmod.aurora_hiberna": "§3§kiii §b§lAurora Hiberna §3§kiii§r",
@@ -21,6 +22,9 @@
   "tooltip.aetheriusmod.cano.shift_down": "§7§oEm um belo dia alguém estava andando pela rua e viu um cano, e pegou este cano.§r",
   "tooltip.aetheriusmod.cano": "§7§oÉ apenas um cano.§r",
 
+  "tooltip.aetheriusmod.parar.shift_down": "§7§oApenas pare, é sério.§r",
+  "tooltip.aetheriusmod.parar": "§7§oPare.§r",
+
   "tooltip.aetheriusmod.experimento_646.shift_down": "§7§oCriada para algo maior, não para cortar mas sim para §r§8§k§oGuardar algo maior.§r",
   "tooltip.aetheriusmod.experimento_646": "§7§oNão é uma arma... é um receptáculo.§r",
 
@@ -33,7 +37,7 @@
   "tooltip.aetheriusmod.luz_da_ultima_fenix.shift_down": "§6§oForjada nas cinzas. Renascida na luz. O fogo que renasce, luz que nunca morre.§r",
   "tooltip.aetheriusmod.luz_da_ultima_fenix": "§6Uma luz interior§r que jamais se apaga.§r",
 
-  "tooltip.aetheriusmod.fulmens_fang.shift_down": "§3§oQuem empunha a Foice dança com o trovão - pois em sua lâmina dorme a tempestade, sonhando furiosa no silêncio do aço.§r",
+  "tooltip.aetheriusmod.fulmens_fang.shift_down": "§3§oQuem empunha a Espada dança com o trovão - pois em sua lâmina dorme a tempestade, sonhando furiosa no silêncio do aço.§r",
   "tooltip.aetheriusmod.fulmens_fang": "Da tormenta veio o trovão, e dele nasceu o corte que rasga os céus.",
 
   "tooltip.aetheriusmod.dark_judgment.shift_down": " §4§oA criação de §4§lDark Judgment §4§onão foi um ato de criação consciente, quando as almas começaram a vagar em um limbo sem fim e o ciclo da vida foi interrompido por aqueles que desafiavam sua própria mortalidade, uma arma nasceu do próprio tecido do Submundo.§r",
@@ -65,6 +69,12 @@
   "item.aetheriusmod.chave_vermelho_escuro": "Chave Vermelho-Escuro",
 
   "item.aetheriusmod.elemento_fogo": "Fogo",
+  "item.aetheriusmod.elemento_gelo": "Gelo",
+  "item.aetheriusmod.elemento_raio": "Raio",
+  "item.aetheriusmod.elemento_natureza": "Natureza",
+  "item.aetheriusmod.elemento_sacra": "Sacra",
+  "item.aetheriusmod.elemento_sangue": "Sangue",
+  "item.aetheriusmod.elemento_vazio": "Vazio",
 
   "block.aetheriusmod.bloco_ar": "Bloco de Ar",
 

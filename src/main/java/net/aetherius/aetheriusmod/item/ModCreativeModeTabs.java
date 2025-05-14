@@ -41,6 +41,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CHAVERACHA8);
 // elementos !! ========================================================================================================
                         output.accept(ModItems.ELEMENTO_FOGO);
+                        output.accept(ModItems.ELEMENTO_GELO);
+                        output.accept(ModItems.ELEMENTO_RAIO);
+                        output.accept(ModItems.ELEMENTO_NATUREZA);
+                        output.accept(ModItems.ELEMENTO_SACRA);
+                        output.accept(ModItems.ELEMENTO_SANGUE);
+                        output.accept(ModItems.ELEMENTO_VAZIO);
                     }).build());
 
     public static final Supplier<CreativeModeTab> AETHERIUS_BLOCOS_TAB = CREATIVE_MODE_TAB.register("aetherius_blocos_tab",
@@ -60,6 +66,7 @@ public class ModCreativeModeTabs {
 
 //armas !! =============================================================================================================
                         output.accept(ModItems.CANO);
+                        output.accept(ModItems.PARAR);
                         output.accept(ModItems.CRIMSON_WHISPER);
                         output.accept(ModItems.DARK_JUDGMENT);
                         output.accept(ModItems.DIVINE_SILENCE);

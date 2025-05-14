@@ -9,8 +9,9 @@
   },
 
   "pattern": [
-    "AA",
-    "AA"
+    "AAA",
+    "AAA",
+    "AAA"
   ],
 
   "result": {
