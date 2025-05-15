@@ -14,8 +14,6 @@
   "item.aetheriusmod.lamina_da_alvorada": "§e§klal §6§lLâmina da Alvorada §e§klal§r",
   "item.aetheriusmod.protocolo_genesis": "§c§klal §7§lProtocolo Gênesis §c§klal§r",
 
-
-
   "tooltip.aetheriusmod.espada_adm.shift_down": "§7§om's.§r",
   "tooltip.aetheriusmod.espada_adm": "§7§oAd§r",
 
@@ -28,32 +26,32 @@
   "tooltip.aetheriusmod.parar.shift_down": "§7§oJust stop, seriously.§r",
   "tooltip.aetheriusmod.parar": "§7§Stop.§r",
 
-  "tooltip.aetheriusmod.experimento_646.shift_down": "§7§o§kGusta gameplays.§r",
-  "tooltip.aetheriusmod.experimento_646": "Press §eShift§r for more information.",
+  "tooltip.aetheriusmod.experimento_646.shift_down": "§7§oCreated for something greater, not to cut but to §r§8§k§oSave something greater.§r",
+  "tooltip.aetheriusmod.experimento_646": "§7§oIt's not a weapon... it's a receptacle.§r",
 
-  "tooltip.aetheriusmod.crimson_whisper.shift_down": "§4§o§kPoop Pee.§r",
-  "tooltip.aetheriusmod.crimson_whisper": "Press §eShift§r for more information.",
+  "tooltip.aetheriusmod.crimson_whisper.shift_down": "§4§o§kPee Poop.§r",
+  "tooltip.aetheriusmod.crimson_whisper": "§4§o§kPee Poop.§r",
 
-  "tooltip.aetheriusmod.aurora_hiberna.shift_down": "Imbued with ancient cold, it whispers promises of icy death.",
-  "tooltip.aetheriusmod.aurora_hiberna": "Two blades, one destiny.",
+  "tooltip.aetheriusmod.aurora_hiberna.shift_down": "§b§oImbued with ancient cold, it whispers promises of icy death.§r",
+  "tooltip.aetheriusmod.aurora_hiberna": "§3Two blades,§r §fone destiny.§r",
 
   "tooltip.aetheriusmod.luz_da_ultima_fenix.shift_down": "§6§oForged in ashes. Reborn in light. Fire that's reborn, light that never dies.§r",
-  "tooltip.aetheriusmod.luz_da_ultima_fenix": "§6An inner light§r that never fades.§r",
+  "tooltip.aetheriusmod.luz_da_ultima_fenix": "§6§oAn inner light§r that never fades.§r",
 
   "tooltip.aetheriusmod.fulmens_fang.shift_down": "§3§oWho wields the Sword dances with thunder - for within its blade sleeps the storm, dreaming fiercely in the silence of steel.§r",
-  "tooltip.aetheriusmod.fulmens_fang": "Press §eShift§r for more information.",
+  "tooltip.aetheriusmod.fulmens_fang": "§oFrom the storm comes thunder, and from it comes the cut that tears the heavens.§r",
 
-  "tooltip.aetheriusmod.dark_judgment.shift_down": "§4§oForged in primordial chaos, wielded by the will of fallen gods — Dark Judgment doesn't cut flesh, it devours souls.§r",
-  "tooltip.aetheriusmod.dark_judgment": "§k§oasoidhasuidhas§r",
+  "tooltip.aetheriusmod.dark_judgment.shift_down": "§4§oThe creation of §4§lDark Judgment §4§owas not an act of conscious creation, when souls began to wander in an endless limbo and the cycle of life was interrupted by those who defied their own mortality, a weapon was born from the very fabric of the Underworld.§r",
+  "tooltip.aetheriusmod.dark_judgment": "§4§lDark Judgment §r§4§odoes not reap out of anger, but out of necessity. It rightes what has been twisted, it ends what is past its time, and it tears from existence all that refuses to accept the end.§r",
 
   "tooltip.aetheriusmod.divine_silence.shift_down": "§5§oBefore light, before even the concept of creation, there was the Void—not as absence, but as will. And from that will, a weapon was born. It was not forged by hands, nor summoned by ritual. Divine Silence simply came into being, as if the universe itself had made a mistake.§r",
-  "tooltip.aetheriusmod.divine_silence": "Press §eShift§r for more information.",
+  "tooltip.aetheriusmod.divine_silence": "§5§oWhere §5§lDivine Silence §r§5§oplays, even time hesitates, for before the Void, even the gods are silent.§r",
 
   "tooltip.aetheriusmod.thyrsus.shift_down": "§a§oForged from the forest's primordial will to maintain its perpetual rhythm of serenity.§r",
   "tooltip.aetheriusmod.thyrsus": "§2Your pulse is like a sap of hope§r",
 
-  "tooltip.aetheriusmod.lamina_da_alvorada.shift_down": "It shines not with fire, but with the memory of dawn.",
-  "tooltip.aetheriusmod.lamina_da_alvorada": "Press §eShift§r for more information.",
+  "tooltip.aetheriusmod.lamina_da_alvorada.shift_down": "§e§o...§r",
+  "tooltip.aetheriusmod.lamina_da_alvorada": "§e§oIt shines not with fire, but with the memory of dawn.§r",
 
   "tooltip.aetheriusmod.protocolo_genesis.shift_down": "§7§oUsed once to begin the age of machines. It will be used again to end it.§r",
   "tooltip.aetheriusmod.protocolo_genesis": "§c§She doesn't cut. It erases. And replaces.§r",

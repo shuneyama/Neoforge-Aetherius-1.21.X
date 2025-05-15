@@ -202,7 +202,7 @@ public class ModItems {
 
     public static final DeferredItem<SwordItem> PROTOCOLO_GENESIS = ITEMS.register("protocolo_genesis",
             () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
-                    .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 96, 1f))){
+                    .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 24, -1.7f))){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
                     if (Screen.hasShiftDown()) {
