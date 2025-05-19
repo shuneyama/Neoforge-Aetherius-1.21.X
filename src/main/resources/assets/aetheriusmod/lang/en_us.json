@@ -13,6 +13,8 @@
   "item.aetheriusmod.thyrsus": "§0§kiii §2§lThyrsus§r §0§kiii§r",
   "item.aetheriusmod.lamina_da_alvorada": "§e§klal §6§lLâmina da Alvorada §e§klal§r",
   "item.aetheriusmod.protocolo_genesis": "§c§klal §7§lProtocolo Gênesis §c§klal§r",
+  "item.aetheriusmod.thunderlash": "§f§kilj §3§Thunderlash§r §f§kilj§r",
+
 
   "tooltip.aetheriusmod.espada_adm.shift_down": "§7§om's.§r",
   "tooltip.aetheriusmod.espada_adm": "§7§oAd§r",
@@ -55,6 +57,10 @@
 
   "tooltip.aetheriusmod.protocolo_genesis.shift_down": "§7§oUsed once to begin the age of machines. It will be used again to end it.§r",
   "tooltip.aetheriusmod.protocolo_genesis": "§c§She doesn't cut. It erases. And replaces.§r",
+
+  "tooltip.aetheriusmod.thunderlash.shift_down": "§3§kaksjdaasdasd  dasdasasd§3§k",
+  "tooltip.aetheriusmod.thunderlash": "§3§oA foice lendária que invoca a fúria dos céus a cada balanço.§r",
+
 
   "item.aetheriusmod.aeda_cobre": "Copper Aeda",
   "item.aetheriusmod.aeda_prata": "Silver Aeda",
