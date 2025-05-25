@@ -14,6 +14,7 @@
   "item.aetheriusmod.lamina_da_alvorada": "§e§klal §6§lLâmina da Alvorada §f§klal§r",
   "item.aetheriusmod.protocolo_genesis": "§c§klal §7§lProtocolo Gênesis §c§klal§r",
   "item.aetheriusmod.thunderlash": "§f§kilj §3Thunderlash§r §f§kilj§r",
+  "item.aetheriusmod.blood_regret": "Blood Regret",
 
 
 
@@ -61,6 +62,9 @@
 
   "tooltip.aetheriusmod.thunderlash.shift_down": "§3§kaksjdaasdasd  dasdasasd§3§k",
   "tooltip.aetheriusmod.thunderlash": "§3§oA foice lendária que invoca a fúria dos céus a cada balanço.§r",
+
+  "tooltip.aetheriusmod.blood_regret.shift_down": "Viva como sangue sob a luz, responde à magia e às emoções de quem a empunha. Na empunhadura, um pequeno crânio de origem incerta observa em silêncio, como um lembrete imóvel de que o verdadeiro peso da espada não está no aço, mas no que ela exige de quem a carrega.",
+  "tooltip.aetheriusmod.blood_regret": "Uma espada de lâmina carmesim que responde à emoção de quem a empunha. Na empunhadura, um crânio simboliza o fardo que ela representa.",
 
   "item.aetheriusmod.aeda_cobre": "Aeda de Cobre",
   "item.aetheriusmod.aeda_prata": "Aeda de Prata",

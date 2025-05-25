@@ -228,6 +228,20 @@ public class ModItems {
                 }
             });
 
+    public static final DeferredItem<SwordItem> BLOOD_REGRET = ITEMS.register("blood_regret",
+            () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
+                    .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 15, -1.7f))){
+                @Override
+                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    if (Screen.hasShiftDown()) {
+                        tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.blood_regret.shift_down"));
+                    } else {
+                        tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.blood_regret"));
+                    }
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+
 
 // moedas <3 ===========================================================================================================
         public static final DeferredItem<Item> AEDA_COBRE = ITEMS.register("aeda_cobre",
