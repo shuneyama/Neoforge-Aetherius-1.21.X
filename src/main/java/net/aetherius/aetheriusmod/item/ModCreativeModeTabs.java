@@ -74,7 +74,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ESPADA_ESPECIAL);
                         output.accept(ModItems.EXPERIMENTO_646);
                         output.accept(ModItems.FULMENS_FANG);
-                        output.accept(ModItems.LAMINA_DA_ALVORADA);
+                        output.accept(ModItems.ALVORADA_CELESTE);
                         output.accept(ModItems.AURORA_HIBERNA);
                         output.accept(ModItems.LUZ_DA_ULTIMA_FENIX);
                         output.accept(ModItems.THYRSUS);

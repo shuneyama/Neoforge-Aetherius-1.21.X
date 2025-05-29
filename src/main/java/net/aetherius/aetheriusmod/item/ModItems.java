@@ -186,15 +186,15 @@ public class ModItems {
                     }
                 });
 
-        public static final DeferredItem<SwordItem> LAMINA_DA_ALVORADA = ITEMS.register("lamina_da_alvorada",
+        public static final DeferredItem<SwordItem> ALVORADA_CELESTE = ITEMS.register("alvorada_celeste",
                 () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
                         .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 96, 1f))){
                     @Override
                     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
                         if (Screen.hasShiftDown()) {
-                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.lamina_da_alvorada.shift_down"));
+                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.alvorada_celeste.shift_down"));
                         } else {
-                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.lamina_da_alvorada"));
+                            tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.alvorada_celeste"));
                         }
                         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                     }

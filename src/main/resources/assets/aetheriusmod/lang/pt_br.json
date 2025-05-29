@@ -11,7 +11,7 @@
   "item.aetheriusmod.dark_judgment": "§0§kiii §4§lDark Judgment §0§kiii§r",
   "item.aetheriusmod.divine_silence": "§0§kiii §5§lDivine Silence §0§kiii§r",
   "item.aetheriusmod.thyrsus": "§0§kilj §2§lThyrsus§r §0§kilj§r",
-  "item.aetheriusmod.lamina_da_alvorada": "§e§klal §6§lLâmina da Alvorada §f§klal§r",
+  "item.aetheriusmod.alvorada_celeste": "§e§klal §6§lAlvorada Celeste§e§klal§r",,
   "item.aetheriusmod.protocolo_genesis": "§c§klal §7§lProtocolo Gênesis §c§klal§r",
   "item.aetheriusmod.thunderlash": "§f§kilj §3Thunderlash§r §f§kilj§r",
   "item.aetheriusmod.blood_regret": "Blood Regret",
@@ -52,8 +52,9 @@
   "tooltip.aetheriusmod.thyrsus.shift_down": "§a§oForjada a partir da vontade primordial da floresta de manter o seu ritmo perpétuo de serenidade.§r",
   "tooltip.aetheriusmod.thyrsus": "§2§oSeu pulsar é como uma seiva de esperança.§r",
 
-  "tooltip.aetheriusmod.lamina_da_alvorada.shift_down": "§e§o...§r",
-  "tooltip.aetheriusmod.lamina_da_alvorada": "§e§oBrilha não com fogo, mas com a lembrança do amanhecer.§r",
+  "tooltip.aetheriusmod.alvorada_celeste.shift_down": "§e§oPortadora do primeiro raio que iluminou o cosmos. Nas mãos da Deusa da Luz, esta lâmina ergue civilizações, desfaz a decadência e lembra ao mundo que, enquanto existir luz, jamais haverá fim.§r",
+,,
+  "tooltip.aetheriusmod.alvorada_celeste": "§e§o...§r",
 
   "tooltip.aetheriusmod.protocolo_genesis.shift_down": "§7§oUsada uma vez para iniciar a era das máquinas. Será usada novamente para encerrá-la.§r",
   "tooltip.aetheriusmod.protocolo_genesis": "§c§oEla não corta. Ela apaga. E substitui.§r",
