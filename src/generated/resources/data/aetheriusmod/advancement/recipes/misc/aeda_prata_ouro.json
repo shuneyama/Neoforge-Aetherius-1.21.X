@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_aeda_ouro": {
+      "conditions": {
+        "items": [
+          {
+            "items": "aetheriusmod:aeda_ouro"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "aetheriusmod:aeda_prata_ouro"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_aeda_ouro"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aetheriusmod:aeda_prata_ouro"
+    ]
+  }
+}

@@ -1,7 +1,6 @@
 package net.aetherius.aetheriusmod;
 
 import net.aetherius.aetheriusmod.block.ModBlocks;
-import net.aetherius.aetheriusmod.item.ModCreativeModeTabs;
 import net.aetherius.aetheriusmod.item.ModItems;
 import org.slf4j.Logger;
 

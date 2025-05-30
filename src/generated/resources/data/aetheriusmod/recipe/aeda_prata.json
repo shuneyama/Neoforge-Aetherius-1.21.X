@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "aetheriusmod:aeda_cobre"
+    }
+  },
+  "pattern": [
+    "CC",
+    "CC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "aetheriusmod:aeda_prata"
+  }
+}

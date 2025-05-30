@@ -1,11 +1,13 @@
 package net.aetherius.aetheriusmod.block;
 
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.level.block.BarrierBlock;
 import net.minecraft.world.level.block.Block;
 import net.aetherius.aetheriusmod.AetheriusMod;
 import net.aetherius.aetheriusmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.bus.api.IEventBus;
@@ -26,6 +28,9 @@ public class ModBlocks {
             () -> new BarrierBlock(BlockBehaviour.Properties.of()
                     .noOcclusion().noLootTable().strength(-1.0F, 3600000.8F).pushReaction(PushReaction.BLOCK).noTerrainParticles()));
 
+    public static final DeferredBlock<Block> CIANE_MINERIO = registerBlock("ciane_minerio",
+            () -> new DropExperienceBlock(UniformInt.of(5, 10),
+                    BlockBehaviour.Properties.of().strength(7f).requiresCorrectToolForDrops()));
 
 
 

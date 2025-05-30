@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "aetheriusmod:aeda_ciane"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "aetheriusmod:aeda_rubi"
+  }
+}

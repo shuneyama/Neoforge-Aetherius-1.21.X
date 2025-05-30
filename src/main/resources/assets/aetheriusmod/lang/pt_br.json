@@ -11,7 +11,7 @@
   "item.aetheriusmod.dark_judgment": "§0§kiii §4§lDark Judgment §0§kiii§r",
   "item.aetheriusmod.divine_silence": "§0§kiii §5§lDivine Silence §0§kiii§r",
   "item.aetheriusmod.thyrsus": "§0§kilj §2§lThyrsus§r §0§kilj§r",
-  "item.aetheriusmod.alvorada_celeste": "§e§klal §6§lAlvorada Celeste§e§klal§r",,
+  "item.aetheriusmod.alvorada_celeste": "§e§klal §6§lAlvorada Celeste §e§klal§r",
   "item.aetheriusmod.protocolo_genesis": "§c§klal §7§lProtocolo Gênesis §c§klal§r",
   "item.aetheriusmod.thunderlash": "§f§kilj §3Thunderlash§r §f§kilj§r",
   "item.aetheriusmod.blood_regret": "Blood Regret",
@@ -53,7 +53,6 @@
   "tooltip.aetheriusmod.thyrsus": "§2§oSeu pulsar é como uma seiva de esperança.§r",
 
   "tooltip.aetheriusmod.alvorada_celeste.shift_down": "§e§oPortadora do primeiro raio que iluminou o cosmos. Nas mãos da Deusa da Luz, esta lâmina ergue civilizações, desfaz a decadência e lembra ao mundo que, enquanto existir luz, jamais haverá fim.§r",
-,,
   "tooltip.aetheriusmod.alvorada_celeste": "§e§o...§r",
 
   "tooltip.aetheriusmod.protocolo_genesis.shift_down": "§7§oUsada uma vez para iniciar a era das máquinas. Será usada novamente para encerrá-la.§r",
@@ -70,7 +69,7 @@
   "item.aetheriusmod.aeda_ouro": "Aeda de Ouro",
   "item.aetheriusmod.aeda_ametista": "Aeda de Ametista",
   "item.aetheriusmod.aeda_rubi": "Aeda de Rubi",
-  "item.aetheriusmod.aeda_cyannaz": "Aeda de CYannaz",
+  "item.aetheriusmod.aeda_ciane": "Aeda de Ciane",
 
   "item.aetheriusmod.chave_ciano_dourado": "Chave Ciano-Dourado",
   "item.aetheriusmod.chave_ciano_escuro": "Chave Ciano-Escuro",
@@ -83,16 +82,21 @@
 
   "item.aetheriusmod.elemento_fogo": "Fogo",
   "item.aetheriusmod.elemento_gelo": "Gelo",
-  "item.aetheriusmod.elemento_raio": "Raio",
   "item.aetheriusmod.elemento_natureza": "Natureza",
+  "item.aetheriusmod.elemento_raio": "Raio",
   "item.aetheriusmod.elemento_sacra": "Sacra",
   "item.aetheriusmod.elemento_sangue": "Sangue",
   "item.aetheriusmod.elemento_vazio": "Vazio",
 
   "block.aetheriusmod.bloco_ar": "Bloco de Ar",
 
+  "block.aetheriusmod.ciane_minerio": "Minério de Ciane",
+  "item.aetheriusmod.ciane_cru": "Ciane Bruto",
+  "item.aetheriusmod.ciane_barra": "Barra de Ciane",
+
   "creativetab.aetheriusmod.aetherius_itens": "Aetherius Itens",
   "creativetab.aetheriusmod.aetherius_blocos": "Aetherius Blocos",
   "creativetab.aetheriusmod.aetherius_armas": "Aetherius Armas"
+
 
 }

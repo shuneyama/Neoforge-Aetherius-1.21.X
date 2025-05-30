@@ -230,7 +230,7 @@ public class ModItems {
 
     public static final DeferredItem<SwordItem> BLOOD_REGRET = ITEMS.register("blood_regret",
             () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
-                    .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 15, -1.7f))){
+                    .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 4, -2.4f))){
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
                     if (Screen.hasShiftDown()) {
@@ -254,7 +254,7 @@ public class ModItems {
                 () -> new Item(new Item.Properties().stacksTo(16)));
         public static final DeferredItem<Item> AEDA_RUBI = ITEMS.register("aeda_rubi",
                 () -> new Item(new Item.Properties().stacksTo(16)));
-        public static final DeferredItem<Item> AEDA_CYANNAZ = ITEMS.register("aeda_cyannaz",
+        public static final DeferredItem<Item> AEDA_CIANE = ITEMS.register("aeda_ciane",
                 () -> new Item(new Item.Properties().stacksTo(16)));
 
 
@@ -282,9 +282,9 @@ public class ModItems {
                 () -> new Item(new Item.Properties().stacksTo(16)));
         public static final DeferredItem<Item> ELEMENTO_GELO = ITEMS.register("elemento_gelo",
                         () -> new Item(new Item.Properties().stacksTo(16)));
+    public static final DeferredItem<Item> ELEMENTO_NATUREZA = ITEMS.register("elemento_natureza",
+            () -> new Item(new Item.Properties().stacksTo(16)));
         public static final DeferredItem<Item> ELEMENTO_RAIO = ITEMS.register("elemento_raio",
-                        () -> new Item(new Item.Properties().stacksTo(16)));
-        public static final DeferredItem<Item> ELEMENTO_NATUREZA = ITEMS.register("elemento_natureza",
                         () -> new Item(new Item.Properties().stacksTo(16)));
         public static final DeferredItem<Item> ELEMENTO_SACRA = ITEMS.register("elemento_sacra",
                         () -> new Item(new Item.Properties().stacksTo(16)));
@@ -293,6 +293,10 @@ public class ModItems {
         public static final DeferredItem<Item> ELEMENTO_VAZIO = ITEMS.register("elemento_vazio",
                                 () -> new Item(new Item.Properties().stacksTo(16)));
 
+    public static final DeferredItem<Item> CIANE_CRU = ITEMS.register("ciane_cru",
+            () -> new Item(new Item.Properties().stacksTo(64)));
+    public static final DeferredItem<Item> CIANE_BARRA = ITEMS.register("ciane_barra",
+            () -> new Item(new Item.Properties().stacksTo(64)));
 
 
 

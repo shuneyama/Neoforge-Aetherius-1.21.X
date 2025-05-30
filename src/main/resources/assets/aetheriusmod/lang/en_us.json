@@ -11,7 +11,7 @@
   "item.aetheriusmod.dark_judgment": "§0§kiii §4§lDark Judgment §0§kiii§r",
   "item.aetheriusmod.divine_silence": "§0§kiii §5§lDivine Silence §0§kiii§r",
   "item.aetheriusmod.thyrsus": "§0§kiii §2§lThyrsus§r §0§kiii§r",
-  "item.aetheriusmod.alvorada_celeste": "§e§klal §6§lAlvorada Celeste§e§klal§r",
+  "item.aetheriusmod.alvorada_celeste": "§e§klal §6§lAlvorada Celeste §e§klal§r",
   "item.aetheriusmod.protocolo_genesis": "§c§klal §7§lProtocolo Gênesis §c§klal§r",
   "item.aetheriusmod.thunderlash": "§f§kilj §3§Thunderlash§r §f§kilj§r",
   "item.aetheriusmod.blood_regret": "Blood Regret",
@@ -69,7 +69,7 @@
   "item.aetheriusmod.aeda_ouro": "Golden Aeda",
   "item.aetheriusmod.aeda_ametista": "Amethyst Aeda",
   "item.aetheriusmod.aeda_rubi": "Ruby Aeda",
-  "item.aetheriusmod.aeda_cyannaz": "Cyannaz Aeda",
+  "item.aetheriusmod.aeda_ciane": "Ciane Aeda",
 
   "item.aetheriusmod.chave_ciano_dourado": "Golden Cyan Key",
   "item.aetheriusmod.chave_ciano_escuro": "Dark Cyan Key",
@@ -82,13 +82,17 @@
 
   "item.aetheriusmod.elemento_fogo": "Fogo",
   "item.aetheriusmod.elemento_gelo": "Gelo",
-  "item.aetheriusmod.elemento_raio": "Raio",
   "item.aetheriusmod.elemento_natureza": "Natureza",
+  "item.aetheriusmod.elemento_raio": "Raio",
   "item.aetheriusmod.elemento_sacra": "Sacra",
   "item.aetheriusmod.elemento_sangue": "Sangue",
   "item.aetheriusmod.elemento_vazio": "Vazio",
 
   "block.aetheriusmod.bloco_ar": "Air Block",
+
+  "block.aetheriusmod.ciane_minerio": "Ciane Ore",
+  "item.aetheriusmod.ciane_cru": "Raw Ciane",
+  "item.aetheriusmod.ciane_barra": "Ciane Ingot",
 
   "creativetab.aetheriusmod.aetherius_itens": "Aetherius Items",
   "creativetab.aetheriusmod.aetherius_blocos": "Aetherius Blocks",
