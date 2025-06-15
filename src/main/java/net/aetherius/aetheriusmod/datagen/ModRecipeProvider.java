@@ -69,10 +69,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModItems.CIANE_FRAGMENTO)
                 .requires(ModItems.CIANE_FRAGMENTO)
                 .requires(ModItems.CIANE_FRAGMENTO)
-                .requires(Items.GOLD_INGOT)
-                .requires(Items.GOLD_INGOT)
-                .requires(Items.GOLD_INGOT)
-                .requires(Items.GOLD_INGOT)
+                .requires(Items.NETHERITE_INGOT)
+                .requires(Items.NETHERITE_INGOT)
+                .requires(Items.NETHERITE_INGOT)
+                .requires(Items.NETHERITE_INGOT)
                 .unlockedBy("has_ciane_scrap", has(ModItems.CIANE_FRAGMENTO))
                 .save(recipeOutput, "aetheriusmod:ciane_ingot");
 

@@ -1,4 +1,4 @@
-// 1.21.1	2025-06-15T01:03:46.0330901	Recipes
+// 1.21.1	2025-06-15T01:20:51.7807558	Recipes
 dffea60888d5693168a01880fc4aa517efb6f49c data/aetheriusmod/advancement/recipes/misc/aeda_ciane.json
 e79827401a0b33265898c64df0ddd065f120ab06 data/aetheriusmod/advancement/recipes/misc/aeda_cobre_prata.json
 0441ad17fad87a0db34bbc7d03b7dc6056cb9b16 data/aetheriusmod/advancement/recipes/misc/aeda_ouro.json
@@ -20,4 +20,4 @@ a8322a5a60ceedb87b96fdc01ae13c8833da0f08 data/aetheriusmod/recipe/aeda_prata_our
 bf839c9b848aa1ea63755e74f493df51519ad3c5 data/aetheriusmod/recipe/aeda_rubi_ciane.json
 5112005ec5cb55abc0e8b8d9ae1807611cc0d3c0 data/aetheriusmod/recipe/ciane_fragmento_from_blasting_ciane_cru.json
 bf5a396e90541dee9b7ba622f917c8add0122b2c data/aetheriusmod/recipe/ciane_fragmento_from_smelting_ciane_cru.json
-474ba79ffaa703dff45e5468889da305571a19a5 data/aetheriusmod/recipe/ciane_ingot.json
+89d2b87f5d364a8f224fb67b7a96d3388042837c data/aetheriusmod/recipe/ciane_ingot.json
