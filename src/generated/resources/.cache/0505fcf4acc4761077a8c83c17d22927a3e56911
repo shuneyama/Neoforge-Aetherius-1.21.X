@@ -1,4 +1,4 @@
-// 1.21.1	2025-05-30T02:14:41.8117004	Item Models: aetheriusmod
+// 1.21.1	2025-06-15T01:03:46.03409	Item Models: aetheriusmod
 ec567fe4158fa1ac78f0bbc4e5e8f4c70c2c84c5 assets/aetheriusmod/models/item/chave_ciano_dourado.json
 4f6decd126a480afe4384880e89fb0c002917674 assets/aetheriusmod/models/item/chave_ciano_escuro.json
 6f88ac8f3ba8c040d73fd5774793ebca1156e824 assets/aetheriusmod/models/item/chave_roxo_dourado.json
@@ -9,6 +9,7 @@ a5d5cfe6e5d96e4e0cf5a0aef4f12fe0c77f2169 assets/aetheriusmod/models/item/chave_v
 dd56518bc0b1b6875d40ce7c112ca719bbdbbe79 assets/aetheriusmod/models/item/chave_vermelho_escuro.json
 8e62dde13c33f44604f30a3ea317733d2eccad23 assets/aetheriusmod/models/item/ciane_barra.json
 9a4b97233ee87bb6d78c897d8d07a60326d0a599 assets/aetheriusmod/models/item/ciane_cru.json
+cdbc5cf74a1271b8b548dec7b7df490779af9cfc assets/aetheriusmod/models/item/ciane_fragmento.json
 836dcd0a8fb805ab713f0d58e4b3a2f8a63345e0 assets/aetheriusmod/models/item/elemento_fogo.json
 5866bd085f41c4715fd0a4ec9ef7758a35d4c4dc assets/aetheriusmod/models/item/elemento_gelo.json
 8c8076fb9050c6d46385797bdac2be2f5f282e76 assets/aetheriusmod/models/item/elemento_natureza.json

@@ -51,6 +51,7 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.CIANE_BARRA);
                         output.accept(ModItems.CIANE_CRU);
+                        output.accept(ModItems.CIANE_FRAGMENTO);
                     }).build());
 
 

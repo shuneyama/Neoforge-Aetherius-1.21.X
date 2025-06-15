@@ -14,6 +14,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         basicItem(ModItems.CIANE_CRU.get());
+        basicItem(ModItems.CIANE_FRAGMENTO.get());
         basicItem(ModItems.CIANE_BARRA.get());
 
         basicItem(ModItems.CHAVERACHA1.get());

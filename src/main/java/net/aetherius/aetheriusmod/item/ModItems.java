@@ -295,6 +295,8 @@ public class ModItems {
 
     public static final DeferredItem<Item> CIANE_CRU = ITEMS.register("ciane_cru",
             () -> new Item(new Item.Properties().stacksTo(64)));
+    public static final DeferredItem<Item> CIANE_FRAGMENTO = ITEMS.register("ciane_fragmento",
+            () -> new Item(new Item.Properties().stacksTo(64)));
     public static final DeferredItem<Item> CIANE_BARRA = ITEMS.register("ciane_barra",
             () -> new Item(new Item.Properties().stacksTo(64)));
 

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "aetheriusmod:ciane_barra_from_blasting_ciane_cru"
+        "recipe": "aetheriusmod:ciane_fragmento_from_smelting_ciane_cru"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "aetheriusmod:ciane_barra_from_blasting_ciane_cru"
+      "aetheriusmod:ciane_fragmento_from_smelting_ciane_cru"
     ]
   }
 }

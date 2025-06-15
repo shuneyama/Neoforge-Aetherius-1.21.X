@@ -5,6 +5,7 @@ import net.aetherius.aetheriusmod.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
@@ -21,8 +22,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     protected void buildRecipes(RecipeOutput recipeOutput) {
         List<ItemLike> CIANE_SMELTABLES = List.of(ModItems.CIANE_CRU);
 
-        oreSmelting(recipeOutput, CIANE_SMELTABLES, RecipeCategory.MISC, ModItems.CIANE_BARRA.get(), 0.3f, 200, "ciane");
-        oreBlasting(recipeOutput, CIANE_SMELTABLES, RecipeCategory.MISC, ModItems.CIANE_BARRA.get(), 0.3f, 100, "ciane");
+        oreSmelting(recipeOutput, CIANE_SMELTABLES, RecipeCategory.MISC, ModItems.CIANE_FRAGMENTO.get(), 0.3f, 200, "ciane");
+        oreBlasting(recipeOutput, CIANE_SMELTABLES, RecipeCategory.MISC, ModItems.CIANE_FRAGMENTO.get(), 0.3f, 100, "ciane");
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AEDA_PRATA.get())
                 .pattern("CC")
@@ -62,6 +63,18 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModItems.AEDA_CIANE)
                 .unlockedBy("has_aeda_ciane", has(ModItems.AEDA_CIANE))
                 .save(recipeOutput, "aetheriusmod:aeda_rubi_ciane");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CIANE_BARRA.get(), 1)
+                .requires(ModItems.CIANE_FRAGMENTO)
+                .requires(ModItems.CIANE_FRAGMENTO)
+                .requires(ModItems.CIANE_FRAGMENTO)
+                .requires(ModItems.CIANE_FRAGMENTO)
+                .requires(Items.GOLD_INGOT)
+                .requires(Items.GOLD_INGOT)
+                .requires(Items.GOLD_INGOT)
+                .requires(Items.GOLD_INGOT)
+                .unlockedBy("has_ciane_scrap", has(ModItems.CIANE_FRAGMENTO))
+                .save(recipeOutput, "aetheriusmod:ciane_ingot");
 
     }
 
