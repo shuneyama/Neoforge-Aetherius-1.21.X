@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "minecraft:nether_star"
+    },
+    "R": {
+      "item": "aetheriusmod:ciane_barra"
+    }
+  },
+  "pattern": [
+    "FRF",
+    " F ",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "aetheriusmod:ciane_sword"
+  }
+}

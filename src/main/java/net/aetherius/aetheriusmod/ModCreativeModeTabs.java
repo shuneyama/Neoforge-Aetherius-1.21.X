@@ -90,6 +90,19 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PROTOCOLO_GENESIS);
                         output.accept(ModItems.THUNDERLASH);
                         output.accept(ModItems.BLOOD_REGRET);
+                        output.accept(ModItems.CIANE_SWORD);
+
+                        output.accept(ModItems.CAPACETE_CIANE);
+                        output.accept(ModItems.PEITORAL_CIANE);
+                        output.accept(ModItems.CALCINHA_CIANE);
+                        output.accept(ModItems.BOTAS_CIANE);
+
+                        output.accept(ModItems.MACHADO_CIANE);
+                        output.accept(ModItems.PICARETA_CIANE);
+                        output.accept(ModItems.ENXADA_CIANE);
+                        output.accept(ModItems.PA_CIANE);
+
+
 
                     }).build());
 

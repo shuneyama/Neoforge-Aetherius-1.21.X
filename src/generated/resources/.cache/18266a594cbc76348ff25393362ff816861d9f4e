@@ -1,1 +1,5 @@
-// 1.21.1	2025-05-30T01:52:31.5937158	Tags for minecraft:item mod id aetheriusmod
+// 1.21.1	2025-06-22T17:58:39.4953509	Tags for minecraft:item mod id aetheriusmod
+798f0e84f5cc804c82bab158ecd0cb77ad9e771c data/minecraft/tags/item/axes.json
+65f1394f3abfe26a0557a4d81091142fdf8126ef data/minecraft/tags/item/hoes.json
+3bc8e386002a59fdec24fb2932ce8336d5867832 data/minecraft/tags/item/pickaxes.json
+32e909269545c9e5eda01a3514efa50ae49e0311 data/minecraft/tags/item/shovels.json

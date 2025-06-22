@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "aetheriusmod:ciane_barra"
+    }
+  },
+  "pattern": [
+    " R ",
+    " G ",
+    " G "
+  ],
+  "result": {
+    "count": 1,
+    "id": "aetheriusmod:pa_ciane"
+  }
+}

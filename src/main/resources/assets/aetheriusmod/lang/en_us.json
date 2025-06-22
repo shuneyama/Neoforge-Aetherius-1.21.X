@@ -15,6 +15,7 @@
   "item.aetheriusmod.protocolo_genesis": "§c§klal §7§lProtocolo Gênesis §c§klal§r",
   "item.aetheriusmod.thunderlash": "§f§kilj §3Thunderlash§r §f§kilj§r",
   "item.aetheriusmod.blood_regret": "Blood Regret",
+  "item.aetheriusmod.ciane_sword": "Ciane's Sword",
 
   "tooltip.aetheriusmod.espada_adm.shift_down": "§7§om's.§r",
   "tooltip.aetheriusmod.espada_adm": "§7§oAd§r",
@@ -87,6 +88,11 @@
   "item.aetheriusmod.elemento_sacra": "Sacra",
   "item.aetheriusmod.elemento_sangue": "Sangue",
   "item.aetheriusmod.elemento_vazio": "Vazio",
+
+  "item.aetheriusmod.capacete_ciane": "Ciane's Helmet",
+  "item.aetheriusmod.peitoral_ciane": "Ciane's Chestplate",
+  "item.aetheriusmod.calcinha_ciane": "Ciane's Leggings",
+  "item.aetheriusmod.botas_ciane": "Ciane's Boots",
 
   "block.aetheriusmod.bloco_ar": "Air Block",
 

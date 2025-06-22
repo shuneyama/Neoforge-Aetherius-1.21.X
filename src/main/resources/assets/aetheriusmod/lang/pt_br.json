@@ -15,6 +15,7 @@
   "item.aetheriusmod.protocolo_genesis": "§c§klal §7§lProtocolo Gênesis §c§klal§r",
   "item.aetheriusmod.thunderlash": "§f§kilj §3Thunderlash§r §f§kilj§r",
   "item.aetheriusmod.blood_regret": "Blood Regret",
+  "item.aetheriusmod.ciane_sword": "Espada de Ciane",
 
   "tooltip.aetheriusmod.espada_adm.shift_down": "§7§om's.§r",
   "tooltip.aetheriusmod.espada_adm": "§7§oAd§r",
@@ -64,6 +65,11 @@
   "tooltip.aetheriusmod.blood_regret.shift_down": "Viva como sangue sob a luz, responde à magia e às emoções de quem a empunha. Na empunhadura, um pequeno crânio de origem incerta observa em silêncio, como um lembrete imóvel de que o verdadeiro peso da espada não está no aço, mas no que ela exige de quem a carrega.",
   "tooltip.aetheriusmod.blood_regret": "Uma espada de lâmina carmesim que responde à emoção de quem a empunha. Na empunhadura, um crânio simboliza o fardo que ela representa.",
 
+  "tooltip.aetheriusmod.ciane_sword.shift_down": "xixi coco",
+  "tooltip.aetheriusmod.ciane_sword": "xixicoco.",
+
+
+
   "item.aetheriusmod.aeda_cobre": "Aeda de Cobre",
   "item.aetheriusmod.aeda_prata": "Aeda de Prata",
   "item.aetheriusmod.aeda_ouro": "Aeda de Ouro",
@@ -87,6 +93,18 @@
   "item.aetheriusmod.elemento_sacra": "Sacra",
   "item.aetheriusmod.elemento_sangue": "Sangue",
   "item.aetheriusmod.elemento_vazio": "Vazio",
+
+  "item.aetheriusmod.capacete_ciane": "Capacete de Ciane",
+  "item.aetheriusmod.peitoral_ciane": "Peitoral de Ciane",
+  "item.aetheriusmod.calcinha_ciane": "Calcinha de Ciane",
+  "item.aetheriusmod.botas_ciane": "Botas de Ciane",
+
+  "item.aetheriusmod.machado_ciane": "Machado de Ciane",
+  "item.aetheriusmod.picareta_ciane": "Picareta de Ciane",
+  "item.aetheriusmod.pa_ciane": "Pá de Ciane",
+  "item.aetheriusmod.enxada_ciane": "Enxada de Ciane",
+
+
 
   "block.aetheriusmod.bloco_ar": "Bloco de Ar",
 

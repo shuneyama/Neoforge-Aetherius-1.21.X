@@ -34,6 +34,15 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ELEMENTO_SANGUE.get());
         basicItem(ModItems.ELEMENTO_VAZIO.get());
 
+        basicItem(ModItems.CAPACETE_CIANE.get());
+        basicItem(ModItems.PEITORAL_CIANE.get());
+        basicItem(ModItems.CALCINHA_CIANE.get());
+        basicItem(ModItems.BOTAS_CIANE.get());
+
+        basicItem(ModItems.PICARETA_CIANE.get());
+        basicItem(ModItems.ENXADA_CIANE.get());
+        basicItem(ModItems.PA_CIANE.get());
+        basicItem(ModItems.MACHADO_CIANE.get());
 
     }
 }

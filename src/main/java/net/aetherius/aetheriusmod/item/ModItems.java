@@ -241,6 +241,21 @@ public class ModItems {
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
+    public static final DeferredItem<SwordItem> CIANE_SWORD = ITEMS.register("ciane_sword",
+            () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
+                    .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 4, -2.4f))){
+                @Override
+                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    if (Screen.hasShiftDown()) {
+                        tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.ciane_sword.shift_down"));
+                    } else {
+                        tooltipComponents.add(Component.translatable("tooltip.aetheriusmod.ciane_sword"));
+                    }
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+
+
 
 
 // moedas <3 ===========================================================================================================
@@ -300,11 +315,42 @@ public class ModItems {
     public static final DeferredItem<Item> CIANE_BARRA = ITEMS.register("ciane_barra",
             () -> new Item(new Item.Properties().stacksTo(64)));
 
+    public static final DeferredItem<ArmorItem> CAPACETE_CIANE = ITEMS.register("capacete_ciane",
+            () -> new ArmorItem(ModArmorMaterials.CIANE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().stacksTo(1).durability(ArmorItem.Type.HELMET.getDurability(1536))));
+
+    public static final DeferredItem<ArmorItem> PEITORAL_CIANE = ITEMS.register("peitoral_ciane",
+            () -> new ArmorItem(ModArmorMaterials.CIANE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().stacksTo(1).durability(ArmorItem.Type.CHESTPLATE.getDurability(1536))));
+
+    public static final DeferredItem<ArmorItem> CALCINHA_CIANE = ITEMS.register("calcinha_ciane",
+            () -> new ArmorItem(ModArmorMaterials.CIANE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().stacksTo(1).durability(ArmorItem.Type.LEGGINGS.getDurability(1536))));
+
+    public static final DeferredItem<ArmorItem> BOTAS_CIANE = ITEMS.register("botas_ciane",
+            () -> new ArmorItem(ModArmorMaterials.CIANE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().stacksTo(1).durability(ArmorItem.Type.BOOTS.getDurability(1536))));
+
+    public static final DeferredItem<PickaxeItem> PICARETA_CIANE = ITEMS.register("picareta_ciane",
+            () -> new PickaxeItem(ModToolTiers.CIANE, new Item.Properties()
+                    .stacksTo(1).attributes(PickaxeItem.createAttributes(ModToolTiers.CIANE, 5F, -3f))));
+    public static final DeferredItem<ShovelItem> PA_CIANE = ITEMS.register("pa_ciane",
+            () -> new ShovelItem(ModToolTiers.CIANE, new Item.Properties()
+                    .stacksTo(1).attributes(ShovelItem.createAttributes(ModToolTiers.CIANE, 5.5F, -3f))));
+    public static final DeferredItem<HoeItem> ENXADA_CIANE = ITEMS.register("enxada_ciane",
+            () -> new HoeItem(ModToolTiers.CIANE, new Item.Properties()
+                    .stacksTo(1).attributes(HoeItem.createAttributes(ModToolTiers.CIANE, 0F, -3f))));
+    public static final DeferredItem<AxeItem> MACHADO_CIANE = ITEMS.register("machado_ciane",
+            () -> new AxeItem(ModToolTiers.CIANE, new Item.Properties()
+                    .stacksTo(1).attributes(AxeItem.createAttributes(ModToolTiers.CIANE, 9F, -3f))));
+
+
 
 
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
+
     }
 
 }

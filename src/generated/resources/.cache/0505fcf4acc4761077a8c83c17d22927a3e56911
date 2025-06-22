@@ -1,4 +1,7 @@
-// 1.21.1	2025-06-15T01:03:46.03409	Item Models: aetheriusmod
+// 1.21.1	2025-06-22T17:58:39.5060498	Item Models: aetheriusmod
+5a6d4aff73ffb4e904b3fbbd15d7b76fb42e7935 assets/aetheriusmod/models/item/botas_ciane.json
+3e98a22e6d84cd422d04f1e798bebf77be19b762 assets/aetheriusmod/models/item/calcinha_ciane.json
+db33a75bb93a846cf58728258f4647e43fd7db13 assets/aetheriusmod/models/item/capacete_ciane.json
 ec567fe4158fa1ac78f0bbc4e5e8f4c70c2c84c5 assets/aetheriusmod/models/item/chave_ciano_dourado.json
 4f6decd126a480afe4384880e89fb0c002917674 assets/aetheriusmod/models/item/chave_ciano_escuro.json
 6f88ac8f3ba8c040d73fd5774793ebca1156e824 assets/aetheriusmod/models/item/chave_roxo_dourado.json
@@ -17,3 +20,8 @@ cdbc5cf74a1271b8b548dec7b7df490779af9cfc assets/aetheriusmod/models/item/ciane_f
 d2fdfbedb0768918c0b40f60840547e7d561c4d8 assets/aetheriusmod/models/item/elemento_sacra.json
 82c8c8b2ef8eb4866237e4815b9f49251b56dec2 assets/aetheriusmod/models/item/elemento_sangue.json
 9bddae9ea0ec5b8affd2e5cd41fc6753fa0f3966 assets/aetheriusmod/models/item/elemento_vazio.json
+99c63928dd15c9f62b841a38c95aa7f30141ba21 assets/aetheriusmod/models/item/enxada_ciane.json
+4923d1b930f6d41257834026a2e62a62bfe047be assets/aetheriusmod/models/item/machado_ciane.json
+582e0b1461eb27c89b1e268c315d1cec129bea74 assets/aetheriusmod/models/item/pa_ciane.json
+3a6bb29d75dfb1d794ae4b264bbc22322aa457cb assets/aetheriusmod/models/item/peitoral_ciane.json
+b41fbf3a7675e52ce3e76458be083e71bc5a8b3f assets/aetheriusmod/models/item/picareta_ciane.json

@@ -11,6 +11,7 @@ import net.minecraft.world.item.Item;
 public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> INCORRECT_FOR_ADM_TOOL = createTag("incorrect_adm_tool");
+        public static final TagKey<Block> NEEDS_CIANE_TOOL = createTag("needs_ciane_tool");
 
         private static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(AetheriusMod.MOD_ID, name));

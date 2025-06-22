@@ -64,6 +64,73 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_aeda_ciane", has(ModItems.AEDA_CIANE))
                 .save(recipeOutput, "aetheriusmod:aeda_rubi_ciane");
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CAPACETE_CIANE.get())
+                .pattern("RRR")
+                .pattern("R R")
+                .define('R', ModItems.CIANE_BARRA.get())
+                .unlockedBy("has_ciane_barra", has(ModItems.CIANE_BARRA)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.PEITORAL_CIANE.get())
+                .pattern("R R")
+                .pattern("RRR")
+                .pattern("RRR")
+                .define('R', ModItems.CIANE_BARRA.get())
+                .unlockedBy("has_ciane_barra", has(ModItems.CIANE_BARRA)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CALCINHA_CIANE.get())
+                .pattern("RRR")
+                .pattern("R R")
+                .pattern("R R")
+                .define('R', ModItems.CIANE_BARRA.get())
+                .unlockedBy("has_ciane_barra", has(ModItems.CIANE_BARRA)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BOTAS_CIANE.get())
+                .pattern("R R")
+                .pattern("R R")
+                .define('R', ModItems.CIANE_BARRA.get())
+                .unlockedBy("has_ciane_barra", has(ModItems.CIANE_BARRA)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.PICARETA_CIANE.get())
+                .pattern("RRR")
+                .pattern(" G ")
+                .pattern(" G ")
+                .define('R', ModItems.CIANE_BARRA.get())
+                .define('G', Items.STICK)
+                .unlockedBy("has_ciane_barra", has(ModItems.CIANE_BARRA)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.MACHADO_CIANE.get())
+                .pattern(" RR")
+                .pattern(" GR")
+                .pattern(" G ")
+                .define('R', ModItems.CIANE_BARRA.get())
+                .define('G', Items.STICK)
+                .unlockedBy("has_ciane_barra", has(ModItems.CIANE_BARRA)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENXADA_CIANE.get())
+                .pattern(" RR")
+                .pattern(" G ")
+                .pattern(" G ")
+                .define('R', ModItems.CIANE_BARRA.get())
+                .define('G', Items.STICK)
+                .unlockedBy("has_ciane_barra", has(ModItems.CIANE_BARRA)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.PA_CIANE.get())
+                .pattern(" R ")
+                .pattern(" G ")
+                .pattern(" G ")
+                .define('R', ModItems.CIANE_BARRA.get())
+                .define('G', Items.STICK)
+                .unlockedBy("has_ciane_barra", has(ModItems.CIANE_BARRA)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CIANE_SWORD.get())
+                .pattern("FRF")
+                .pattern(" F ")
+                .pattern(" R ")
+                .define('R', ModItems.CIANE_BARRA.get())
+                .define('F', Items.NETHER_STAR)
+
+                .unlockedBy("has_ciane_barra", has(ModItems.CIANE_BARRA)).save(recipeOutput);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CIANE_BARRA.get(), 1)
                 .requires(ModItems.CIANE_FRAGMENTO)
                 .requires(ModItems.CIANE_FRAGMENTO)
