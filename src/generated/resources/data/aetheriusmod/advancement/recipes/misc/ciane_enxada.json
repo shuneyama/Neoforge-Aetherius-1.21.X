@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "aetheriusmod:ciane_sword"
+        "recipe": "aetheriusmod:ciane_enxada"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "aetheriusmod:ciane_sword"
+      "aetheriusmod:ciane_enxada"
     ]
   }
 }

@@ -1,6 +1,5 @@
 package net.aetherius.aetheriusmod.datagen;
 
-import com.jcraft.jorbis.Block;
 import net.aetherius.aetheriusmod.AetheriusMod;
 import net.aetherius.aetheriusmod.block.ModBlocks;
 import net.aetherius.aetheriusmod.util.ModTags;
@@ -29,7 +28,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(ModTags.Blocks.NEEDS_CIANE_TOOL)
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
-        tag(ModTags.Blocks.INCORRECT_FOR_ADM_TOOL)
+        tag(ModTags.Blocks.INCORRECT_FOR_CIANE_TOOL)
                 .addTag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
                 .remove(ModTags.Blocks.NEEDS_CIANE_TOOL);
     }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "aetheriusmod:item/botas_ciane"
+    "layer0": "aetheriusmod:item/ciane_botas"
   }
 }

@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "G": {
-      "item": "minecraft:stick"
-    },
-    "R": {
+    "C": {
       "item": "aetheriusmod:ciane_barra"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
     }
   },
   "pattern": [
-    " RR",
-    " GR",
-    " G "
+    "NCN",
+    " N ",
+    " C "
   ],
   "result": {
     "count": 1,
-    "id": "aetheriusmod:machado_ciane"
+    "id": "aetheriusmod:ciane_espada"
   }
 }

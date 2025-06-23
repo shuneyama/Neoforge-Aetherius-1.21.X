@@ -61,11 +61,11 @@
 
   "item.aetheriusmod.thunderlash": "§f§kilj §3Thunderlash§r §f§kilj§r",
   "tooltip.aetheriusmod.thunderlash.shift_down": "§3§kaksjdaasdasd  dasdasasd§3§k",
-  "tooltip.aetheriusmod.thunderlash": "§3§oA foice lendária que invoca a fúria dos céus a cada balanço.§r",
+  "tooltip.aetheriusmod.thunderlash": "§3§oThe legendary scythe that summons the fury of the heavens with every swing.§r",
 
   "item.aetheriusmod.blood_regret": "Blood Regret",
-  "tooltip.aetheriusmod.blood_regret.shift_down": "Viva como sangue sob a luz, responde à magia e às emoções de quem a empunha. Na empunhadura, um pequeno crânio de origem incerta observa em silêncio, como um lembrete imóvel de que o verdadeiro peso da espada não está no aço, mas no que ela exige de quem a carrega.",
-  "tooltip.aetheriusmod.blood_regret": "Uma espada de lâmina carmesim que responde à emoção de quem a empunha. Na empunhadura, um crânio simboliza o fardo que ela representa.",
+  "tooltip.aetheriusmod.blood_regret.shift_down": "Its liquid is as vivid as blood in the light. It bears a small skull that watches silently, a still reminder that the sword's true weight lies in what it demands of its wielder.",
+  "tooltip.aetheriusmod.blood_regret": "A sword with a crimson blade that responds to the emotions of its wielder. On the hilt, a skull symbolizes the burden it represents.",
 
 
 
@@ -93,15 +93,15 @@
   "item.aetheriusmod.elemento_sangue": "Sangue",
   "item.aetheriusmod.elemento_vazio": "Vazio",
 
-  "item.aetheriusmod.capacete_ciane": "Ciane's Helmet",
-  "item.aetheriusmod.peitoral_ciane": "Ciane's Chestplate",
-  "item.aetheriusmod.calcinha_ciane": "Ciane's Leggings",
-  "item.aetheriusmod.botas_ciane": "Ciane's Boots",
-  "item.aetheriusmod.machado_ciane": "Ciane's Axe",
-  "item.aetheriusmod.picareta_ciane": "Ciane's Pickaxe",
-  "item.aetheriusmod.pa_ciane": "Ciane's Shovel",
-  "item.aetheriusmod.enxada_ciane": "Ciane's Hoe",
-  "item.aetheriusmod.ciane_sword": "Ciane's Sword",
+  "item.aetheriusmod.ciane_capacete": "Ciane's Helmet",
+  "item.aetheriusmod.ciane_peitoral": "Ciane's Chestplate",
+  "item.aetheriusmod.ciane_calcinha": "Ciane's Leggings",
+  "item.aetheriusmod.ciane_botas": "Ciane's Boots",
+  "item.aetheriusmod.ciane_machado": "Ciane's Axe",
+  "item.aetheriusmod.ciane_picareta": "Ciane's Pickaxe",
+  "item.aetheriusmod.ciane_pa": "Ciane's Shovel",
+  "item.aetheriusmod.ciane_enxada": "Ciane's Hoe",
+  "item.aetheriusmod.ciane_espada": "Ciane's Sword",
   "item.aetheriusmod.ciane_cru": "Raw Ciane",
   "item.aetheriusmod.ciane_fragmento": "Ciane Scrap",
   "item.aetheriusmod.ciane_barra": "Ciane Ingot",

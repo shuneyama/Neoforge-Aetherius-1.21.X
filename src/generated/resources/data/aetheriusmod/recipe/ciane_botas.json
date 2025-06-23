@@ -2,17 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "R": {
+    "C": {
       "item": "aetheriusmod:ciane_barra"
     }
   },
   "pattern": [
-    "R R",
-    "RRR",
-    "RRR"
+    "C C",
+    "C C"
   ],
   "result": {
     "count": 1,
-    "id": "aetheriusmod:peitoral_ciane"
+    "id": "aetheriusmod:ciane_botas"
   }
 }

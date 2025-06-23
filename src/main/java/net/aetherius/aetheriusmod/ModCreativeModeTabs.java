@@ -71,6 +71,17 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.aetheriusmod.aetherius_armas"))
                     .displayItems((itemDisplayParameters, output) -> {
 
+                        output.accept(ModItems.CIANE_CAPACETE);
+                        output.accept(ModItems.CIANE_PEITORAL);
+                        output.accept(ModItems.CIANE_CALCINHA);
+                        output.accept(ModItems.CIANE_BOTAS);
+
+                        output.accept(ModItems.CIANE_ESPADA);
+                        output.accept(ModItems.CIANE_PICARETA);
+                        output.accept(ModItems.CIANE_MACHADO);
+                        output.accept(ModItems.CIANE_PA);
+                        output.accept(ModItems.CIANE_ENXADA);
+
                         output.accept(ModItems.CANO);
                         output.accept(ModItems.PARAR);
                         output.accept(ModItems.CRIMSON_WHISPER);
@@ -87,17 +98,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PROTOCOLO_GENESIS);
                         output.accept(ModItems.THUNDERLASH);
                         output.accept(ModItems.BLOOD_REGRET);
-                        output.accept(ModItems.CIANE_SWORD);
-
-                        output.accept(ModItems.CAPACETE_CIANE);
-                        output.accept(ModItems.PEITORAL_CIANE);
-                        output.accept(ModItems.CALCINHA_CIANE);
-                        output.accept(ModItems.BOTAS_CIANE);
-
-                        output.accept(ModItems.MACHADO_CIANE);
-                        output.accept(ModItems.PICARETA_CIANE);
-                        output.accept(ModItems.ENXADA_CIANE);
-                        output.accept(ModItems.PA_CIANE);
                     }).build());
 
 

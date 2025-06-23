@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "aetheriusmod:item/capacete_ciane"
+    "layer0": "aetheriusmod:item/ciane_peitoral"
   }
 }

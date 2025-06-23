@@ -66,7 +66,7 @@
   "tooltip.aetheriusmod.thunderlash": "§3§oA foice lendária que invoca a fúria dos céus a cada balanço.§r",
 
   "item.aetheriusmod.blood_regret": "Blood Regret",
-  "tooltip.aetheriusmod.blood_regret.shift_down": "Viva como sangue sob a luz, responde à magia e às emoções de quem a empunha. Na empunhadura, um pequeno crânio de origem incerta observa em silêncio, como um lembrete imóvel de que o verdadeiro peso da espada não está no aço, mas no que ela exige de quem a carrega.",
+  "tooltip.aetheriusmod.blood_regret.shift_down": "Seu líquido é vivo como sangue sob a luz. Possui um pequeno crânio que observa em silêncio, como um lembrete imóvel de que o verdadeiro peso da espada está no no que ela exige de quem a carrega.",
   "tooltip.aetheriusmod.blood_regret": "Uma espada de lâmina carmesim que responde à emoção de quem a empunha. Na empunhadura, um crânio simboliza o fardo que ela representa.",
 
 
@@ -95,15 +95,15 @@
   "item.aetheriusmod.elemento_sangue": "Sangue",
   "item.aetheriusmod.elemento_vazio": "Vazio",
 
-  "item.aetheriusmod.capacete_ciane": "Capacete de Ciane",
-  "item.aetheriusmod.peitoral_ciane": "Peitoral de Ciane",
-  "item.aetheriusmod.calcinha_ciane": "Calcinha de Ciane",
-  "item.aetheriusmod.botas_ciane": "Botas de Ciane",
-  "item.aetheriusmod.machado_ciane": "Machado de Ciane",
-  "item.aetheriusmod.picareta_ciane": "Picareta de Ciane",
-  "item.aetheriusmod.pa_ciane": "Pá de Ciane",
-  "item.aetheriusmod.enxada_ciane": "Enxada de Ciane",
-  "item.aetheriusmod.ciane_sword": "Espada de Ciane",
+  "item.aetheriusmod.ciane_capacete": "Capacete de Ciane",
+  "item.aetheriusmod.ciane_peitoral": "Peitoral de Ciane",
+  "item.aetheriusmod.ciane_calcinha": "Calcinha de Ciane",
+  "item.aetheriusmod.ciane_botas": "Botas de Ciane",
+  "item.aetheriusmod.ciane_machado": "Machado de Ciane",
+  "item.aetheriusmod.ciane_picareta": "Picareta de Ciane",
+  "item.aetheriusmod.ciane_pa": "Pá de Ciane",
+  "item.aetheriusmod.ciane_enxada": "Enxada de Ciane",
+  "item.aetheriusmod.ciane_espada": "Espada de Ciane",
   "item.aetheriusmod.ciane_cru": "Ciane Bruto",
   "item.aetheriusmod.ciane_fragmento": "Fragmento de Ciane",
   "item.aetheriusmod.ciane_barra": "Barra de Ciane",

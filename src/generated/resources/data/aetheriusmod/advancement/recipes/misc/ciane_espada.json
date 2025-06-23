@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "aetheriusmod:peitoral_ciane"
+        "recipe": "aetheriusmod:ciane_espada"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "aetheriusmod:peitoral_ciane"
+      "aetheriusmod:ciane_espada"
     ]
   }
 }

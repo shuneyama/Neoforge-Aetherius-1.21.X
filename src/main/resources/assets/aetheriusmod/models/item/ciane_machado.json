@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "aetheriusmod:item/pa_ciane"
+    "layer0": "aetheriusmod:item/ciane_machado"
   }
 }
