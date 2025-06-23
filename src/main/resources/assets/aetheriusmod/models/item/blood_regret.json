@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "aetheriusmod:item/blood_regret",
 		"particle": "aetheriusmod:item/blood_regret"
@@ -2931,17 +2933,16 @@
 			}
 		}
 	],
-	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, -90, 0],
-			"translation": [0, 9.75, 0.5],
-			"scale": [2.4, 2.4, 2.4]
+			"translation": [0, 8.5, 0.5],
+			"scale": [2.1, 2, 2.1]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [0, 90, 0],
-			"translation": [0, 9.75, 0.5],
-			"scale": [2.4, 2.4, 2.4]
+			"translation": [0, 8.5, 0.5],
+			"scale": [2.1, 2, 2.1]
 		},
 		"firstperson_righthand": {
 			"rotation": [10, -90, 0],
