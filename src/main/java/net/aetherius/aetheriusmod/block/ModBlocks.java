@@ -21,12 +21,10 @@ public class ModBlocks {
             DeferredRegister.createBlocks(AetheriusMod.MOD_ID);
 
 
-
-
-
     public static final DeferredBlock<Block> BLOCO_AR = registerBlock("bloco_ar",
             () -> new BarrierBlock(BlockBehaviour.Properties.of()
-                    .noOcclusion().noLootTable().strength(-1.0F, 3600000.8F).pushReaction(PushReaction.BLOCK).noTerrainParticles()));
+                    .noOcclusion().noLootTable().strength(-1.0F, 3600000.8F)
+                    .pushReaction(PushReaction.BLOCK).noTerrainParticles()));
 
     public static final DeferredBlock<Block> CIANE_MINERIO = registerBlock("ciane_minerio",
             () -> new DropExperienceBlock(UniformInt.of(5, 10),
@@ -34,11 +32,10 @@ public class ModBlocks {
 
 
 
-
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
-       DeferredBlock<T> toReturn = BLOCKS.register(name, block);
-       registerBlockItem(name, toReturn);
-       return toReturn;
+        DeferredBlock<T> toReturn = BLOCKS.register(name, block);
+        registerBlockItem(name, toReturn);
+        return toReturn;
     }
 
     private static <T extends Block> void registerBlockItem(String name, DeferredBlock<T> block) {

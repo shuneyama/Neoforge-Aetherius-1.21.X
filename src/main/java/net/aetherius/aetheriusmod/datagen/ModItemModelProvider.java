@@ -43,6 +43,5 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ENXADA_CIANE.get());
         basicItem(ModItems.PA_CIANE.get());
         basicItem(ModItems.MACHADO_CIANE.get());
-
     }
 }

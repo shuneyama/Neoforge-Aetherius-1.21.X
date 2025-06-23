@@ -17,8 +17,6 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, AetheriusMod.MOD_ID);
 
 //itens !! =============================================================================================================
-
-
     public static final Supplier<CreativeModeTab> AETHERIUS_ITENS_TAB = CREATIVE_MODE_TAB.register("aetherius_itens_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AEDA_CIANE.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(AetheriusMod.MOD_ID, "aetherius_blocos_tab"))
@@ -56,8 +54,6 @@ public class ModCreativeModeTabs {
 
 
 //blocos !! ============================================================================================================
-
-
     public static final Supplier<CreativeModeTab> AETHERIUS_BLOCOS_TAB = CREATIVE_MODE_TAB.register("aetherius_blocos_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.BLOCO_AR.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(AetheriusMod.MOD_ID, "aetherius_armas_tab"))
@@ -68,12 +64,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.CIANE_MINERIO);
                     }).build());
 
+
+//armas !! =============================================================================================================
     public static final Supplier<CreativeModeTab> AETHERIUS_ARMAS_TAB = CREATIVE_MODE_TAB.register("aetherius_armas_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CANO.get()))
                     .title(Component.translatable("creativetab.aetheriusmod.aetherius_armas"))
                     .displayItems((itemDisplayParameters, output) -> {
 
-//armas !! =============================================================================================================
                         output.accept(ModItems.CANO);
                         output.accept(ModItems.PARAR);
                         output.accept(ModItems.CRIMSON_WHISPER);
@@ -101,9 +98,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PICARETA_CIANE);
                         output.accept(ModItems.ENXADA_CIANE);
                         output.accept(ModItems.PA_CIANE);
-
-
-
                     }).build());
 
 
