@@ -1,4 +1,5 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made by Raycifer",
 	"texture_size": [32, 32],
 	"textures": {
@@ -405,15 +406,13 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 11.5, 1.5],
-			"scale": [1.1, 1.1, 1.1]
+			"translation": [0.25, 11.5, 1.75]
 		},
 		"thirdperson_lefthand": {
-			"translation": [0, 11.5, 1.5],
-			"scale": [1.1, 1.1, 1.1]
+			"translation": [0, 11.5, 1.75]
 		},
 		"firstperson_righthand": {
-			"rotation": [-10, 0, 0],
+			"rotation": [-9, 0, 0],
 			"translation": [2, 5, 0],
 			"scale": [0.8, 0.8, 0.8]
 		},
@@ -423,14 +422,14 @@
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"ground": {
-			"rotation": [-7.66, -35.67, 28.8],
-			"translation": [0, 7.5, 0],
-			"scale": [0.8, 0.8, 0.8]
+			"rotation": [-38.68, 20.24, -54.06],
+			"translation": [0, 1, 0],
+			"scale": [0.4, 0.4, 0.4]
 		},
 		"gui": {
-			"rotation": [57.87, 48.9, -77.78],
-			"translation": [1.5, 0.75, 0],
-			"scale": [0.7, 0.7, 0.7]
+			"rotation": [90, 45, -90],
+			"translation": [0.25, -0.25, 0],
+			"scale": [0.6, 0.6, 0.6]
 		},
 		"head": {
 			"rotation": [-92, 0, 0],
@@ -439,8 +438,8 @@
 		},
 		"fixed": {
 			"rotation": [-90, 40.25, 90],
-			"translation": [0, 0.5, 0],
-			"scale": [0.8, 0.8, 0.8]
+			"translation": [0, 0.5, -0.5],
+			"scale": [0.9, 0.9, 0.9]
 		}
 	},
 	"groups": [

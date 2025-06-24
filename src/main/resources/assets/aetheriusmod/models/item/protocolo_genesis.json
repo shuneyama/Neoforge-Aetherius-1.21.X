@@ -1,4 +1,5 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"3": "aetheriusmod:item/protocolo_genesis_layer",
@@ -964,7 +965,6 @@
 			}
 		}
 	],
-	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, -90, 0],
@@ -973,36 +973,35 @@
 		},
 		"thirdperson_lefthand": {
 			"rotation": [0, 90, 0],
-			"translation": [0, 7.75, 1.25],
+			"translation": [0, 8.25, 1.25],
 			"scale": [2.8, 2.8, 2.8]
 		},
 		"firstperson_righthand": {
-			"rotation": [-4, -90, -8],
-			"translation": [3.25, 4.5, -0.25],
-			"scale": [1.6, 1.6, 1.6]
+			"rotation": [-17, -90, -8],
+			"translation": [1.75, 5.75, 0.25],
+			"scale": [1.5, 1.5, 1.5]
 		},
 		"firstperson_lefthand": {
-			"rotation": [9, 90, -8],
-			"translation": [3.25, 4.5, -0.25],
-			"scale": [1.6, 1.6, 1.6]
+			"rotation": [-4, 90, -8],
+			"translation": [1.75, 5.75, 0.25],
+			"scale": [1.5, 1.5, 1.5]
 		},
 		"ground": {
-			"translation": [0, 7.75, 0],
-			"scale": [2, 2, 2]
+			"rotation": [60, 0, 40]
 		},
 		"gui": {
-			"rotation": [0, 0, -42],
-			"translation": [0.25, 0.5, 0],
-			"scale": [1.5, 1.5, 1.5]
+			"rotation": [0, 0, -45],
+			"translation": [-0.25, 0, 0],
+			"scale": [1.4, 1.4, 1.4]
 		},
 		"head": {
 			"rotation": [0, 0, 118.75],
-			"translation": [-2.25, 6, 0],
+			"translation": [4.75, 6, 0],
 			"scale": [3.5, 3.5, 3.5]
 		},
 		"fixed": {
 			"rotation": [-180, 0, 138],
-			"translation": [-1.25, 0.5, 0.25],
+			"translation": [0, 0.5, -0.25],
 			"scale": [1.9, 1.9, 1.9]
 		}
 	},
