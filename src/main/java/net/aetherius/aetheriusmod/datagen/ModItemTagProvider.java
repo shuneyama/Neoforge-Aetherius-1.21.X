@@ -33,7 +33,9 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.CIANE_ENXADA.get());
         tag(ItemTags.SWORDS)
                 .add(ModItems.CIANE_ESPADA.get())
-                .add(ModItems.ESPADA_ESPECIAL.get());
+                .add(ModItems.ESPADA_ESPECIAL.get())
+                .add(ModItems.PARAR.get())
+                .add(ModItems.CANO.get());
         tag(ItemTags.HEAD_ARMOR)
                 .add(ModItems.CIANE_CAPACETE.get());
         tag(ItemTags.CHEST_ARMOR)

@@ -314,7 +314,7 @@ public class ModItems {
                     .stacksTo(1).attributes(AxeItem.createAttributes(ModToolTiers.CIANE, 9F, -3f))));
     public static final DeferredItem<SwordItem> CIANE_ESPADA = ITEMS.register("ciane_espada",
             () -> new SwordItem(ModToolTiers.CIANE, new Item.Properties()
-                    .stacksTo(1).attributes(SwordItem.createAttributes(ModToolTiers.ADM, 4, -2.4f))));
+                    .stacksTo(1).attributes(SwordItem.createAttributes(ModToolTiers.ADM, 6, -2.2f))));
 
 
     public static void register(IEventBus eventBus) {
