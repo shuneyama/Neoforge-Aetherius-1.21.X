@@ -44,7 +44,5 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.CIANE_CALCINHA.get());
         tag(ItemTags.FOOT_ARMOR)
                 .add(ModItems.CIANE_BOTAS.get());
-
-
     }
 }

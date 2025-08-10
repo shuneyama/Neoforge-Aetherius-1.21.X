@@ -98,6 +98,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PROTOCOLO_GENESIS);
                         output.accept(ModItems.THUNDERLASH);
                         output.accept(ModItems.BLOOD_REGRET);
+                        output.accept(ModItems.AEON);
                     }).build());
 
 
