@@ -314,16 +314,16 @@ public class ModItems {
 
     public static final DeferredItem<PickaxeItem> CIANE_PICARETA = ITEMS.register("ciane_picareta",
             () -> new PickaxeItem(ModToolTiers.CIANE, new Item.Properties()
-                    .stacksTo(1).attributes(PickaxeItem.createAttributes(ModToolTiers.CIANE, 5F, -3f))));
+                    .stacksTo(1).attributes(PickaxeItem.createAttributes(ModToolTiers.CIANE, 5, -3f))));
     public static final DeferredItem<ShovelItem> CIANE_PA = ITEMS.register("ciane_pa",
             () -> new ShovelItem(ModToolTiers.CIANE, new Item.Properties()
                     .stacksTo(1).attributes(ShovelItem.createAttributes(ModToolTiers.CIANE, 5.5F, -3f))));
     public static final DeferredItem<HoeItem> CIANE_ENXADA = ITEMS.register("ciane_enxada",
             () -> new HoeItem(ModToolTiers.CIANE, new Item.Properties()
-                    .stacksTo(1).attributes(HoeItem.createAttributes(ModToolTiers.CIANE, 0F, -3f))));
+                    .stacksTo(1).attributes(HoeItem.createAttributes(ModToolTiers.CIANE, 0, -3f))));
     public static final DeferredItem<AxeItem> CIANE_MACHADO = ITEMS.register("ciane_machado",
             () -> new AxeItem(ModToolTiers.CIANE, new Item.Properties()
-                    .stacksTo(1).attributes(AxeItem.createAttributes(ModToolTiers.CIANE, 9F, -3f))));
+                    .stacksTo(1).attributes(AxeItem.createAttributes(ModToolTiers.CIANE, 9, -3f))));
     public static final DeferredItem<SwordItem> CIANE_ESPADA = ITEMS.register("ciane_espada",
             () -> new SwordItem(ModToolTiers.CIANE, new Item.Properties()
                     .stacksTo(1).attributes(SwordItem.createAttributes(ModToolTiers.ADM, 7, -2.2f))));
