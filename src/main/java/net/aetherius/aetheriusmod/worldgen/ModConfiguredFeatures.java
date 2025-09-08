@@ -4,6 +4,7 @@ import net.aetherius.aetheriusmod.AetheriusMod;
 import net.aetherius.aetheriusmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
+import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Blocks;
@@ -11,11 +12,15 @@ import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
 import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.RandomPatchConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.SimpleBlockConfiguration;
+import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
 import net.minecraft.world.level.levelgen.structure.templatesystem.BlockMatchTest;
 import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
 
 public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> END_CIANNAZ_MINERIO_KEY = registerKey("end_cyannaz_minerio");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_DN_FLOR_KEY = registerKey("overworld_dn_flor_key");
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
 
@@ -24,6 +29,12 @@ public class ModConfiguredFeatures {
         register(context, END_CIANNAZ_MINERIO_KEY , Feature.ORE, new OreConfiguration(endReplaceables,
                 ModBlocks.CIANE_MINERIO.get().defaultBlockState(), 9));
 
+        register(context, OVERWORLD_DN_FLOR_KEY, Feature.FLOWER,
+                new RandomPatchConfiguration(
+                        3, 2, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                        new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.DAMA_DA_NOITE.get())))
+                )
+        );
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

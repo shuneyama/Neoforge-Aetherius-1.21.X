@@ -20,7 +20,6 @@ public class ModTags {
     }
 
     public static class Items {
-
         private static TagKey<Item> createTag(String name) {
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(AetheriusMod.MOD_ID, name));
         }

@@ -110,9 +110,10 @@
   "item.aetheriusmod.ciane_barra": "Ciane Ingot",
   "block.aetheriusmod.ciane_minerio": "Ciane Ore",
 
-  "item.aetheriusmod.poeira_lunar": "Moon Dust",
+  "item.aetheriusmod.poeira_lunar": "Lunar Dust",
+  "item.aetheriusmod.poeira_vermelha_lunar": "Red Lunar Dust",
 
   "block.aetheriusmod.bloco_ar": "Air Block",
   "block.aetheriusmod.dama_da_noite": "Lady of the Night",
-  "block.aetheriusmod.dama_da_noite_vermelha": "Lady of the Red Night"
+  "block.aetheriusmod.dama_vermelha_da_noite": "Lady of the Red Night"
 }

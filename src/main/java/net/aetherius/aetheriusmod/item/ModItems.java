@@ -15,8 +15,6 @@ public class ModItems {
 
 
 
-
-
 // espadinhas :3 =======================================================================================================
     public static final DeferredItem<SwordItem> ESPADA_ADM = ITEMS.register("espada_adm",
             () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
@@ -254,7 +252,6 @@ public class ModItems {
     public static final DeferredItem<Item> AEDA_CIANE = ITEMS.register("aeda_ciane",
             () -> new Item(new Item.Properties().stacksTo(16)));
 
-
 // chaves !! ===========================================================================================================
     public static final DeferredItem<Item> CHAVERACHA1 = ITEMS.register("chave_ciano_dourado",
         () -> new Item(new Item.Properties().stacksTo(1)));
@@ -273,7 +270,6 @@ public class ModItems {
     public static final DeferredItem<Item> CHAVERACHA8 = ITEMS.register("chave_vermelho_escuro",
             () -> new Item(new Item.Properties().stacksTo(1)));
 
-
 // elementos !! ========================================================================================================
     public static final DeferredItem<Item> ELEMENTO_FOGO = ITEMS.register("elemento_fogo",
            () -> new Item(new Item.Properties().stacksTo(16)));
@@ -289,7 +285,6 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(16)));
     public static final DeferredItem<Item> ELEMENTO_VAZIO = ITEMS.register("elemento_vazio",
             () -> new Item(new Item.Properties().stacksTo(16)));
-
 
 // ciane !! ============================================================================================================
     public static final DeferredItem<Item> CIANE_CRU = ITEMS.register("ciane_cru",
@@ -328,13 +323,15 @@ public class ModItems {
             () -> new SwordItem(ModToolTiers.CIANE, new Item.Properties()
                     .stacksTo(1).attributes(SwordItem.createAttributes(ModToolTiers.ADM, 7, -2.2f))));
 
+// itens !! ============================================================================================================
     public static final DeferredItem<Item> POEIRA_LUNAR = ITEMS.register("poeira_lunar",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> POEIRA_VERMELHA_LUNAR = ITEMS.register("poeira_vermelha_lunar",
+            () -> new Item(new Item.Properties()));
+
 
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
-
     }
-
 }

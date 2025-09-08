@@ -1,4 +1,7 @@
-// 1.21.1	2025-05-30T02:28:59.3103968	Registries
+// 1.21.1	2025-09-07T23:12:25.4863055	Registries
 9005bd4b67f66aecea73841aeaa13140217fda26 data/aetheriusmod/neoforge/biome_modifier/add_end_cyannaz_minerio.json
+14500d4aab7dacb0110aa7e39e41ceb1917e0c57 data/aetheriusmod/neoforge/biome_modifier/add_overworld_dn_flor.json
 83e079cc32808bd0b7e18e6d48e1681f983579f5 data/aetheriusmod/worldgen/configured_feature/end_cyannaz_minerio.json
+fcc7f6011da469bf0c49b0f2972e12af243c52d7 data/aetheriusmod/worldgen/configured_feature/overworld_dn_flor_key.json
 ede6295c16f887387b35cbbbea3e256cc7bf64ac data/aetheriusmod/worldgen/placed_feature/end_cyannaz_minerio_placed.json
+7f3ded5782b31e343d4d735160e896fe50e6f893 data/aetheriusmod/worldgen/placed_feature/overworld_dn_flor_placed.json

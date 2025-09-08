@@ -65,7 +65,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BLOCO_AR);
                         output.accept(ModBlocks.CIANE_MINERIO);
                         output.accept(ModBlocks.DAMA_DA_NOITE);
-                        output.accept(ModBlocks.DAMA_DA_NOITE_VERMELHA);
+                        output.accept(ModBlocks.DAMA_VERMELHA_DA_NOITE);
                     }).build());
 
 

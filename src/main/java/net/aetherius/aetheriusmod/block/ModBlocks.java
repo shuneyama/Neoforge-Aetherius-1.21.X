@@ -1,5 +1,7 @@
 package net.aetherius.aetheriusmod.block;
 
+import net.aetherius.aetheriusmod.block.custom.DamaNoite;
+import net.aetherius.aetheriusmod.block.custom.DamaNoiteVermelha;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.level.block.*;
@@ -17,8 +19,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import java.util.function.Supplier;
 
 public class ModBlocks {
-    public static final DeferredRegister.Blocks BLOCKS =
-            DeferredRegister.createBlocks(AetheriusMod.MOD_ID);
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(AetheriusMod.MOD_ID);
 
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
@@ -36,10 +37,10 @@ public class ModBlocks {
                     BlockBehaviour.Properties.of().strength(7f).requiresCorrectToolForDrops()));
 
     public static final DeferredBlock<Block> DAMA_DA_NOITE = registerBlock("dama_da_noite",
-            () -> new FlowerBlock(MobEffects.SATURATION, 0.35F, BlockBehaviour.Properties.of()
+            () -> new DamaNoite(MobEffects.WITHER, 0.35F, BlockBehaviour.Properties.of()
                     .mapColor(MapColor.PLANT).noCollission().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY)));
-    public static final DeferredBlock<Block> DAMA_DA_NOITE_VERMELHA = registerBlock("dama_da_noite_vermelha",
-            () -> new FlowerBlock(MobEffects.SATURATION, 0.35F, BlockBehaviour.Properties.of()
+    public static final DeferredBlock<Block> DAMA_VERMELHA_DA_NOITE = registerBlock("dama_vermelha_da_noite",
+            () -> new DamaNoiteVermelha(MobEffects.HEALTH_BOOST, 0.35F, BlockBehaviour.Properties.of()
                     .mapColor(MapColor.PLANT).noCollission().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY)));
 
 

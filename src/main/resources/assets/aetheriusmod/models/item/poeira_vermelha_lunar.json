@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "aetheriusmod:block/dama_da_noite_vermelho"
+    "layer0": "aetheriusmod:item/poeira_vermelha_lunar"
   }
 }

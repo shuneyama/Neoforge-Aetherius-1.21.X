@@ -1,4 +1,4 @@
-// 1.21.1	2025-09-03T01:25:58.591083	Recipes
+// 1.21.1	2025-09-07T23:02:29.6891952	Recipes
 dffea60888d5693168a01880fc4aa517efb6f49c data/aetheriusmod/advancement/recipes/misc/aeda_ciane.json
 e79827401a0b33265898c64df0ddd065f120ab06 data/aetheriusmod/advancement/recipes/misc/aeda_cobre_prata.json
 0441ad17fad87a0db34bbc7d03b7dc6056cb9b16 data/aetheriusmod/advancement/recipes/misc/aeda_ouro.json
@@ -20,6 +20,7 @@ bb2cbdaf142d3370b1fba6da67c38d2ede56b7e9 data/aetheriusmod/advancement/recipes/m
 c2328ecea05d0f0f4568aa96cb7963656c0d7e51 data/aetheriusmod/advancement/recipes/misc/ciane_peitoral.json
 7ac669a9d25e410a78cc262b10193d0535af0c22 data/aetheriusmod/advancement/recipes/misc/ciane_picareta.json
 b907b77605a061d7c69ae2816c7243552bb319e2 data/aetheriusmod/advancement/recipes/misc/poeira_lunar.json
+4762beab5af2baf4163430ef6d50235cfa645c7d data/aetheriusmod/advancement/recipes/misc/poeira_vermelha_lunar.json
 0e733df2af3b6bb3e362deb3538b142ba90a57ba data/aetheriusmod/recipe/aeda_ciane.json
 0b675a65035b0c6f412f8d4e7cc55d96e7a88d9a data/aetheriusmod/recipe/aeda_cobre_prata.json
 eda442efb2ad86ccd90cc7ae7ff174e6947ccaf6 data/aetheriusmod/recipe/aeda_ouro.json
@@ -41,3 +42,4 @@ bf5a396e90541dee9b7ba622f917c8add0122b2c data/aetheriusmod/recipe/ciane_fragment
 f955e7de3c7fd6dc1db0305c8b26c03ac3c860a7 data/aetheriusmod/recipe/ciane_peitoral.json
 1954f185002cb103057deb39ab831d28b8524794 data/aetheriusmod/recipe/ciane_picareta.json
 d564b027ded253b9cf6dc4626cd810bb9342af3c data/aetheriusmod/recipe/poeira_lunar.json
+601bc41f4cfb69926fb4f75582cf98d6d04f4bc4 data/aetheriusmod/recipe/poeira_vermelha_lunar.json

@@ -146,6 +146,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModBlocks.DAMA_DA_NOITE)
                 .unlockedBy("has_dama_da_noite", has(ModBlocks.DAMA_DA_NOITE))
                 .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.POEIRA_VERMELHA_LUNAR.get(), 1)
+                .requires(ModBlocks.DAMA_VERMELHA_DA_NOITE)
+                .unlockedBy("has_dama_vermelha_da_noite", has(ModBlocks.DAMA_VERMELHA_DA_NOITE))
+                .save(recipeOutput);
 
     }
 
