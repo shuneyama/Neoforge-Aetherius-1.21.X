@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aetheriusmod:dama_da_noite_vermelho"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "aetheriusmod:blocks/dama_da_noite_vermelho"
+}

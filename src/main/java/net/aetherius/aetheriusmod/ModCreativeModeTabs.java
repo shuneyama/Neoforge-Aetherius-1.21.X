@@ -50,18 +50,22 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CIANE_BARRA);
                         output.accept(ModItems.CIANE_CRU);
                         output.accept(ModItems.CIANE_FRAGMENTO);
+
+                        output.accept(ModItems.POEIRA_LUNAR);
                     }).build());
 
 
 //blocos !! ============================================================================================================
     public static final Supplier<CreativeModeTab> AETHERIUS_BLOCOS_TAB = CREATIVE_MODE_TAB.register("aetherius_blocos_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.BLOCO_AR.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.DAMA_DA_NOITE.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(AetheriusMod.MOD_ID, "aetherius_armas_tab"))
                     .title(Component.translatable("creativetab.aetheriusmod.aetherius_blocos"))
                     .displayItems((itemDisplayParameters, output) -> {
 
                         output.accept(ModBlocks.BLOCO_AR);
                         output.accept(ModBlocks.CIANE_MINERIO);
+                        output.accept(ModBlocks.DAMA_DA_NOITE);
+                        output.accept(ModBlocks.DAMA_DA_NOITE_VERMELHO);
                     }).build());
 
 

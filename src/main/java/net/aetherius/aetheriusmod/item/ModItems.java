@@ -328,6 +328,9 @@ public class ModItems {
             () -> new SwordItem(ModToolTiers.CIANE, new Item.Properties()
                     .stacksTo(1).attributes(SwordItem.createAttributes(ModToolTiers.ADM, 7, -2.2f))));
 
+    public static final DeferredItem<Item> POEIRA_LUNAR = ITEMS.register("poeira_lunar",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

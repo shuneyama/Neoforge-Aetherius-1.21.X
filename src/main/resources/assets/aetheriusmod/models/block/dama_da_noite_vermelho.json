@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "render_type": "cutout",
+  "textures": {
+    "cross": "aetheriusmod:block/dama_da_noite_vermelho"
+  }
+}

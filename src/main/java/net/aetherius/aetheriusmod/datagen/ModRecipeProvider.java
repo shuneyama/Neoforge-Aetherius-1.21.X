@@ -1,6 +1,7 @@
 package net.aetherius.aetheriusmod.datagen;
 
 import net.aetherius.aetheriusmod.AetheriusMod;
+import net.aetherius.aetheriusmod.block.ModBlocks;
 import net.aetherius.aetheriusmod.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -140,6 +141,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(Items.NETHERITE_INGOT)
                 .unlockedBy("has_ciane_scrap", has(ModItems.CIANE_FRAGMENTO))
                 .save(recipeOutput, "aetheriusmod:ciane_ingot");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.POEIRA_LUNAR.get(), 1)
+                .requires(ModBlocks.DAMA_DA_NOITE)
+                .unlockedBy("has_dama_da_noite", has(ModBlocks.DAMA_DA_NOITE))
+                .save(recipeOutput);
 
     }
 
