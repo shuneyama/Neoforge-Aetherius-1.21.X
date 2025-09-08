@@ -22,8 +22,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 block -> createOreDrop(ModBlocks.CIANE_MINERIO.get(), ModItems.CIANE_CRU.get()));
         add(ModBlocks.DAMA_DA_NOITE.get(),
                 block -> createSingleItemTable(ModBlocks.DAMA_DA_NOITE.get()));
-        add(ModBlocks.DAMA_DA_NOITE_VERMELHO.get(),
-                block -> createSingleItemTable(ModBlocks.DAMA_DA_NOITE_VERMELHO.get()));
+        add(ModBlocks.DAMA_DA_NOITE_VERMELHA.get(),
+                block -> createSingleItemTable(ModBlocks.DAMA_DA_NOITE_VERMELHA.get()));
     }
 
     @Override

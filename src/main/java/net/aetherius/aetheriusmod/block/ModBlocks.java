@@ -38,7 +38,7 @@ public class ModBlocks {
     public static final DeferredBlock<Block> DAMA_DA_NOITE = registerBlock("dama_da_noite",
             () -> new FlowerBlock(MobEffects.SATURATION, 0.35F, BlockBehaviour.Properties.of()
                     .mapColor(MapColor.PLANT).noCollission().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY)));
-    public static final DeferredBlock<Block> DAMA_DA_NOITE_VERMELHO = registerBlock("dama_da_noite_vermelho",
+    public static final DeferredBlock<Block> DAMA_DA_NOITE_VERMELHA = registerBlock("dama_da_noite_vermelha",
             () -> new FlowerBlock(MobEffects.SATURATION, 0.35F, BlockBehaviour.Properties.of()
                     .mapColor(MapColor.PLANT).noCollission().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY)));
 
