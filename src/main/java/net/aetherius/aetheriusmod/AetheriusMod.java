@@ -1,11 +1,11 @@
 package net.aetherius.aetheriusmod;
 
+import com.natamus.collective_common_neoforge.check.ShouldLoadCheck;
+
 import net.aetherius.aetheriusmod.block.ModBlocks;
 import net.aetherius.aetheriusmod.item.ModItems;
-import org.slf4j.Logger;
 
-import com.mojang.logging.LogUtils;
-
+import net.neoforged.fml.event.lifecycle.FMLLoadCompleteEvent;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -19,37 +19,33 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
-// The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(AetheriusMod.MOD_ID)
 public class AetheriusMod {
+
     public static final String MOD_ID = "aetheriusmod";
-    private static final Logger LOGGER = LogUtils.getLogger();
 
     public AetheriusMod(IEventBus modEventBus, ModContainer modContainer) {
+        if (!ShouldLoadCheck.shouldLoad(MOD_ID)) {
+            return;
+        }
 
         modEventBus.addListener(this::commonSetup);
-
         NeoForge.EVENT_BUS.register(this);
 
         ModCreativeModeTabs.register(modEventBus);
-
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-
         modEventBus.addListener(this::addCreative);
 
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event) {
-    }
+    private void commonSetup(final FMLCommonSetupEvent event) {}
 
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-    }
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {}
 
     @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event) {
-    }
+    public void onServerStarting(ServerStartingEvent event) {}
 
     @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
