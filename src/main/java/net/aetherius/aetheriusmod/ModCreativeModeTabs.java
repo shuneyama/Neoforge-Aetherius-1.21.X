@@ -103,6 +103,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.THUNDERLASH);
                         output.accept(ModItems.BLOOD_REGRET);
                         output.accept(ModItems.AEON);
+                        output.accept(ModItems.ESPADA_TESTE);
                     }).build());
 
 

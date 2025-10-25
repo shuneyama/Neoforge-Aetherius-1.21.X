@@ -1,6 +1,7 @@
 package net.aetherius.aetheriusmod.item;
 
 import net.aetherius.aetheriusmod.AetheriusMod;
+import net.aetherius.aetheriusmod.item.custom.Espada_Teste;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
@@ -16,6 +17,10 @@ public class ModItems {
 
 
 // espadinhas :3 =======================================================================================================
+    public static final DeferredItem<SwordItem> ESPADA_TESTE = ITEMS.register("espada_teste",
+        () -> new Espada_Teste(ModToolTiers.ADM, new Item.Properties().stacksTo(1).rarity(Rarity.EPIC)
+                .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 11, -3)).durability(512)));
+
     public static final DeferredItem<SwordItem> ESPADA_ADM = ITEMS.register("espada_adm",
             () -> new SwordItem(ModToolTiers.ADM, new Item.Properties().stacksTo(1)
                     .attributes(SwordItem.createAttributes(ModToolTiers.ADM, 124, 60f))) {

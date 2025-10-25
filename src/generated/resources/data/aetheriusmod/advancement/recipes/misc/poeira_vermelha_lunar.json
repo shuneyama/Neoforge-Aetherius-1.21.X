@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dama_vermelha_da_noite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "aetheriusmod:dama_vermelha_da_noite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "aetheriusmod:poeira_vermelha_lunar"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dama_vermelha_da_noite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aetheriusmod:poeira_vermelha_lunar"
+    ]
+  }
+}
