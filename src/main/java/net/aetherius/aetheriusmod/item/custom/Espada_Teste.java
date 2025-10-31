@@ -15,9 +15,8 @@ public class Espada_Teste extends SwordItem {
     @Override
     public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         if (!target.level().isClientSide()) {
-            target.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 180, 0, false, true));
+            target.addEffect(new MobEffectInstance(MobEffects.DARKNESS, 180, 0, false, true));
         }
-        stack.hurtAndBreak(1, attacker, null);
         return true;
     }
 }

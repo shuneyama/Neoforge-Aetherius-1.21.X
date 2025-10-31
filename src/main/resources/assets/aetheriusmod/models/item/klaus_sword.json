@@ -2,9 +2,9 @@
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "aetheriusmod:item/espada_teste",
-		"1": "aetheriusmod:item/espada_teste_animada",
-		"particle": "aetheriusmod:item/espada_teste"
+		"0": "aetheriusmod:item/klaus_sword",
+		"1": "aetheriusmod:item/klaus_sword_animada",
+		"particle": "aetheriusmod:item/klaus_sword"
 	},
 	"elements": [
 		{
