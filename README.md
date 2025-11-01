@@ -1,5 +1,5 @@
 
-Código Fonte do Mod Oficial de Aetherius SMP
+Código Fonte do Mod Oficial de Aelysium SMP
 =======
 
 Todas as alterações, adiçÕes e remoções serão atualizadas quase imediatamente pela equipe de desenvolvimento desse mod (até o momento, Eu e Julia)

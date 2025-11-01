@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "aetheriusmod:item/chave_roxo_dourado"
-  }
-}

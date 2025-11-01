@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "aetheriusmod:block/ciane_minerio"
-  }
-}

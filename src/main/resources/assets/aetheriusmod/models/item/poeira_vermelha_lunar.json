@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "aetheriusmod:item/poeira_vermelha_lunar"
-  }
-}

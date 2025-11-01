@@ -1,9 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": [
-    "minecraft:small_end_islands",
-    "minecraft:end_barrens"
-  ],
-  "features": "aetheriusmod:end_cyannaz_minerio_placed",
-  "step": "underground_ores"
-}
